@@ -12,48 +12,48 @@ const Footy = () => {
             <div className='ourfoot'>
                 <div id='products'>
                     <p>Products</p>
-                    <a href="#">Bitcoin</a><br />
-                    <a href="#">Alt</a><br />
-                    <a href="#">Fiat</a><br />
-                    <a href="#">Refill</a><br />
-                    <a href="#">p2p</a>
+                    <a href="javascript:void(0)" onClick={foo} >Bitcoin</a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Alt</a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Fiat</a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Refill</a><br />
+                    <a >p2p</a>
 
                 </div> <br />
 
                 <div id='learn'>
                     <p>Learn</p>
-                    <a href="#">Blog</a><br />
-                    <a href="#">Help Centre</a>
+                    <a href="javascript:void(0)" onClick={foo} >Blog</a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Help Centre</a>
 
                 </div> <br />
 
                 <div id='contact'>
                     <p> Contacts</p>
-                    <a href="#">hello@tradeexpress.com </a><br />
-                    <a href="#">support@tradeexpress.com</a><br />
+                    <a href="javascript:void(0)" onClick={foo}>hello@tradeexpress.com </a><br />
+                    <a href="javascript:void(0)" onClick={foo}>support@tradeexpress.com</a><br />
                     <div className='socialmedia'>
-                        <a href="#"><FaTwitter /></a>
-                        <a href=""><FaTelegram /></a>
-                        <a href=""><FaWhatsapp /></a>
-                        <a href="#"><FaFacebook /></a>
+                        <a href="javascript:void(0)" onClick={foo} ><FaTwitter /></a>
+                        <a href="javascript:void(0)" onClick={foo}><FaTelegram /></a>
+                        <a href="javascript:void(0)" onClick={foo}><FaWhatsapp /></a>
+                        <a href="javascript:void(0)" onClick={foo} ><FaFacebook /></a>
                     </div>
                 </div> <br />
 
                 <div id='company'>
                     <p>Company</p>
-                    <a href="#">About Us </a><br />
-                    <a href="#">Careers </a><br />
+                    <a href="javascript:void(0)" onClick={foo} >About Us </a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Careers </a><br />
 
-                    <a href="#">Rates </a><br />
-                    <a href="#">Mobile</a>
+                    <a href="javascript:void(0)" onClick={foo} >Rates </a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Mobile</a>
 
                 </div> <br />
 
                 <div id='legal'>
                     <p>Legal</p>
-                    <a href="#">Privacy Policy </a><br />
-                    <a href="#">Anti-Money Laundering </a><br />
-                    <a href="#">Terms and Conditions</a>
+                    <a href="javascript:void(0)" onClick={foo} >Privacy Policy </a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Anti-Money Laundering </a><br />
+                    <a href="javascript:void(0)" onClick={foo} >Terms and Conditions</a>
                 </div> <br />
             </div>
             <div id='copyright'>
