@@ -26,14 +26,14 @@ const Artilces = () => {
                     </div>
                     <div id='storex'>
                         <div className='applestores'>
-                            <a href="javascript:void(0)" onClick={[1]}>
+                            <a href="#top">
                                 <img id='applestoricons' src={applelogo} alt="" />
                                 <small className='smallapplestores'>Download on the</small>
                                 <p className='papplestores'>App Store</p>
                             </a>
                         </div>
                         <div className='googleapps'>
-                            <a id='googleapps' href="javascript:void(0)" onClick={[1]}>
+                            <a id='googleapps' href="#top">
                                 <img id='googleappicons' src={googleplaylogo} alt="" />
                                 <small className='smallgooglestores'>Download on the</small>
                                 <p className='papplestores'>Google Play</p>
