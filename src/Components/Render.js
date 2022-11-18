@@ -1,0 +1,46 @@
+import React, { useEffect, useState } from 'react'
+import '../Styles/Render.css'
+import ArrowDown from '../Assets/ArrowDown.png'
+import ArrowUp from '../Assets/ArrowUp.png'
+
+const Render = () => {
+    const [value, setValue] = useState(0)
+    const [data, setData] = useState([])
+    const [isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        setTimeout(() => {
+
+            fetch('https://api.coinlore.net/api/tickers/?start=0&limit=5')
+                .then((res) => res.json())
+                .then((rep) => setData(rep.data), setIsLoading(false))
+        }, 5000)
+
+    })
+    if (isLoading) {
+        return (
+            <div>
+                <p className='loading'>Loading, please wait...</p>
+            </div>
+        )
+    }
+    return (
+        <div>
+            <div className='remdernew'>
+                {data.map((datum) => {
+                    const { id, name, symbol, price_usd, percent_change_24h } = datum
+                    return (
+                        <div id='datums' key={id}>
+                            <p className='symbol'>{symbol}</p>
+                            <p className='price-usd'>${price_usd} </p>
+                            <p className='hours24'><span id='chng'>24h chg%: </span> {  percent_change_24h}% <img src={percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" /></p>
+                        </div>
+                    )
+                })}
+            </div>
+
+        </div>
+    )
+}
+
+export default Render

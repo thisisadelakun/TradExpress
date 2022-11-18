@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.links {
+    color: white;
+    
+}
+
+#bttn {
+    border: 1px solid white;
+    padding: 5px 30px;
+    color: white;
+    width: 50%;
+    z-index: 1;
+
+}
+
+#bttt {
+    padding: 5px 20px;
+    color: blue;
+    width: 50%;
+    z-index: 1;
+}
+
+#bttn:hover,
+#bttt:hover {
+    background-color: rgb(155, 141, 141);
+    color: rgb(7, 7, 75);
+    border: 1px solid rgb(155, 141, 141);
+}
+
+#basic-navbar-nav {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+
+}
+
+#btts {
+    color: white;
+    display: flex;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #bttn {
+        border: 1px solid white;
+        padding: 15px 35px;
+        color: white;
+        width: 60%;
+        
+
+    }
+
+    #bttt {
+        padding: 15px 35px;
+        color: blue;
+        width: 60%;
+        z-index: 1;
+    }
+
+    #basic-navbar-nav {
+        font-size: 25px;
+    }
+}

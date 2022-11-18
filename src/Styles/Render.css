@@ -1,0 +1,57 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
+.remdernew{
+    background-color: #ede5f3;
+}
+#datums{
+    display: flex;
+    flex-direction: column;  
+    margin: 10px 10px ;
+    border-bottom: 1px solid rgb(132, 189, 186);
+    font-family:'Inter', sans-serif;
+
+    
+}
+.symbol{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.price-usd{
+    font-size: 14px;
+    font-weight: bold;
+    
+
+}
+#chng{
+    font-size: 13px;
+    color: blueviolet;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    .symbol{
+        font-size: 25px;
+        font-weight: bold;
+
+    
+    }
+    .price-usd{
+        font-size: 25px;
+
+    
+    }
+    #chng{
+        font-size: 23px;
+    }
+    .hours24{
+        font-size: 23px;
+    }    
+}
+

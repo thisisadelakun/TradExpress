@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.wall {
+    background-color: #F2F2F2;
+
+}
+
+.main {
+    margin: 20px;
+    position: relative;
+
+
+}
+
+.reasonsgallery1 {
+    display: none;
+}
+
+.reasons {
+    margin: 20px 0px;
+    font-size: 13px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.firstp {
+    font-size: 12px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.words {
+    font-size: 10px;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.easymode,
+.investment,
+.finacial {
+    width: 100px;
+
+}
+
+.gallery {
+    background-color: white;
+    border: 1px solid black;
+    margin: 30px 0px;
+    border: none;
+    padding: 3px 20px;
+}
+
+.gallery-2 {
+    background-color: white;
+    border: 1px solid black;
+    margin: 30px 0px;
+    border: none;
+    text-align: right;
+    padding: 5px 20px;
+
+
+}
+
+.btn-learnmore {
+    width: 50%;
+    border: 1px solid black;
+    color: black;
+    margin-top: 10px;
+    position: absolute;
+    left: 90px;
+    font-size: 10px;
+    padding: 5px;
+    display: none;
+
+}
+
+.simplesteps {
+    margin-top: 60px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.buyorsellcrypto,
+.createafreeaccount {
+    position: relative;
+    height: 50vmin;
+}
+
+#numberthree,
+#numberone {
+    width: 20px;
+    position: absolute;
+    top: 8px;
+}
+
+.sellcryptop,
+.freeaccountp {
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 40px;
+    top: 6px;
+}
+
+.buyorsellsmall,
+.freesmall {
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 50%;
+}
+
+.learnmoreimage3,
+.learnmoreimage1 {
+    width: 100px;
+    position: relative;
+    left: 13rem;
+    top: 50px;
+}
+
+.depositing {
+    position: relative;
+    height: 50vmin;
+}
+
+#numbertwo {
+    width: 20px;
+    position: absolute;
+    top: 8px;
+    left: 8rem;
+}
+
+.depositp {
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    left: 10rem;
+    top: 6px;
+}
+
+.depositsmall {
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 10rem;
+    top: 40px;
+    width: 50%;
+}
+
+.learnmoreimage2 {
+    width: 150px;
+    position: relative;
+    left: 0rem;
+    top: 30px;
+}
+
+.less-btn {
+    position: relative;
+    background-color: #F2F2F2;
+    border: 1px solid #7C20BE;
+    left: 5rem;
+    width: 50%;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.less-btn:hover {
+    background-color: #7C20BE;
+    color: white;
+    border: none;
+}
+
+@media (min-width: 390px) and (max-width: 424px) {
+    .reasons {
+        font-size: 15px;
+    }
+
+    .firstp {
+        font-size: 15px;
+
+    }
+
+    .words {
+        font-size: 14px;
+    }
+
+    .easymode,
+    .investment,
+    .finacial {
+        width: 140px;
+    }
+
+    .simplesteps {
+        font-size: 15px;
+
+    }
+
+    .less-btn {
+        left: 5rem;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .depositp,
+    .sellcryptop,
+    .freeaccountp {
+        font-size: 15px;
+        top: 4px;
+    }
+
+    .buyorsellsmall,
+    .depositsmall,
+    .freesmall {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .learnmoreimage3,
+    .learnmoreimage1 {
+        left: 16rem;
+    }
+
+}
+@media (min-width: 425px) and (max-width: 480px) {
+    .reasons {
+        font-size: 30px;
+    }
+
+    .firstp {
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .words {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .easymode,
+    .investment,
+    .finacial {
+        width: 230px;
+    }
+
+    .simplesteps {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+
+
+    }
+
+    .less-btn {
+        left: 10rem;
+        width: 50%;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .sellcryptop,
+    .freeaccountp {
+        font-size: 25px;
+        top: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left: 5rem;
+    }
+
+    .buyorsellsmall,
+    .freesmall {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        left: 5rem;
+        width: 70%;
+        top: 3.5rem;
+    }
+    .depositsmall{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    .learnmoreimage3,
+    .learnmoreimage1 {
+        left: 32rem;
+        width: 230px;
+        top: 6rem;
+    }
+
+    .learnmoreimage2 {
+        width: 270px;
+        position: relative;
+        left: 0rem;
+        top: 6rem;
+    }
+
+    .depositp,
+    .depositsmall {
+        position: absolute;
+        left: 14rem;
+
+    }
+    .depositp{
+        font-size: 25px;
+        top: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    #numberthree,
+    #numberone {
+        width: 40px;
+        position: absolute;
+        top: 8px;
+    }
+    #numbertwo {
+        width: 40px;
+        position: absolute;
+        top: 8px;
+        left: 9rem;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .reasons {
+        font-size: 20px;
+    }
+
+    .firstp {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .words {
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .easymode,
+    .investment,
+    .finacial {
+        width: 200px;
+    }
+
+    .simplesteps {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+
+
+    }
+
+    .less-btn {
+        left: 10rem;
+        width: 50%;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .sellcryptop,
+    .freeaccountp {
+        font-size: 20px;
+        top: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left: 5rem;
+    }
+
+    .buyorsellsmall,
+    .freesmall {
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        left: 5rem;
+        width: 70%;
+        top: 3.5rem;
+    }
+    .depositsmall{
+        font-size: 170px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    .learnmoreimage3,
+    .learnmoreimage1 {
+        left: 32rem;
+        width: 230px;
+        top: 6rem;
+    }
+
+    .learnmoreimage2 {
+        width: 270px;
+        position: relative;
+        left: 0rem;
+        top: 6rem;
+    }
+
+    .depositp,
+    .depositsmall {
+        position: absolute;
+        left: 14rem;
+
+    }
+    .depositp{
+        font-size: 25px;
+        top: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    #numberthree,
+    #numberone {
+        width: 40px;
+        position: absolute;
+        top: 8px;
+    }
+    #numbertwo {
+        width: 40px;
+        position: absolute;
+        top: 8px;
+        left: 9rem;
+    }
+}
