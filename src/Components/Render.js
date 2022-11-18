@@ -4,7 +4,6 @@ import ArrowDown from '../Assets/ArrowDown.png'
 import ArrowUp from '../Assets/ArrowUp.png'
 
 const Render = () => {
-    const [value, setValue] = useState(0)
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
@@ -28,7 +27,7 @@ const Render = () => {
         <div>
             <div className='remdernew'>
                 {data.map((datum) => {
-                    const { id, name, symbol, price_usd, percent_change_24h } = datum
+                    const { id,symbol, price_usd, percent_change_24h } = datum
                     return (
                         <div id='datums' key={id}>
                             <p className='symbol'>{symbol}</p>

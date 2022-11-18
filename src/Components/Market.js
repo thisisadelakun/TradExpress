@@ -3,7 +3,6 @@ import '../Styles/Market.css'
 
 
 const Market = () => {
-    const [value, setValue] = useState(0)
     const [data, setData] = useState([])
     const [isLoading,setIsLoading] = useState(true)
  
@@ -31,7 +30,7 @@ const Market = () => {
                 const {id,name,symbol,price_usd} = datum
                 return(
                     <div id='datumss' key={id}>
-                        <p className='names'>{name} {symbol}${price_usd} <hr /></p>
+                        <p className='names'> {name} {symbol}${price_usd} <hr /></p>
                         {/* <p className='symbol'>{symbol}</p> 
                         <p className='price-usd'>${price_usd}</p> */}
 
