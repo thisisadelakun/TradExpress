@@ -85,7 +85,7 @@ const Home = () => {
 
                         <img id='numbertwo' src={Numbertwo} alt="" />
 
-                        <p className='depositp'>Depositt</p>
+                        <p className='depositp'>Deposit</p>
                         <small className='depositsmall'>
                             Choose your preferred deposit option like bank transfer, credit/debit card or send digital asset directly to your wallet for easy funding/withdrawal.
                         </small>

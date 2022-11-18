@@ -10,7 +10,7 @@ import '../Styles/FooterBars.css'
 const FooterBars = () => {
     return (
         <div className='container'>
-            <div className='sticked'>
+            {/* <div className='sticked'>
                 <nav>
                     <ul>
                         <li>
@@ -33,7 +33,7 @@ const FooterBars = () => {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </div> */}
         </div>
     )
 }

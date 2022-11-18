@@ -20,13 +20,13 @@ const CustomerReview = () => {
                 </p>
             </div>
             <div className='container2'>
-            <Marquee  gradient={false} pauseOnClick={[0]}>
-                <div id='imagingtext'>
-                    <img id='ireti' src={Ireti} alt="" />
-                    <img id='ireti' src={Olagoke} alt="" />
-                    <img id='bayo' src={Bayo} alt="" />
-                </div>
-            </Marquee>
+                <Marquee gradient={false} pauseOnClick={[0]}>
+                    <div id='imagingtext'>
+                        <img id='ireti' src={Ireti} alt="" />
+                        <img id='ireti' src={Olagoke} alt="" />
+                        <img id='bayo' src={Bayo} alt="" />
+                    </div>
+                </Marquee>
             </div>
 
 

@@ -3,15 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import TradLogo from '../Assets/TradExpressLogo.png'
-import '../Styles/NavBar.css'
+import '../Styles/NavBar2.css'
 
-const NavBar = () => {
+const NavBar2 = () => {
     return (
         <div>
 
             <Navbar id='nav' className='nav-bar' expand="lg">
+            <img className='tradlogo' src={TradLogo} alt="" />
                 <Container>
-                <img src={TradLogo} alt="" />  
                     <Navbar.Toggle id='toggled' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse>
                         <Nav className="ms-auto">
@@ -27,4 +27,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default NavBar2

@@ -3,6 +3,9 @@
     margin: 0;
     overflow-x: hidden;
 }
+.fortabdesktop{
+    display: none;
+}
 
 .headercontainer {
     background: linear-gradient(#7C20BE, #590591);
@@ -161,19 +164,69 @@
 }
 
 @media (min-width: 769px) and (min-width: 1024px) {
+    .fortabdesktop{
+        display: inherit;
+    }
+    .formobiles{
+        display: none;
+    }
+    .containerdesk{
+        margin: 20px;
+    }
+    .header-text {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        z-index: 1;
+    }
+    
     .easy {
-        font-size: 15px;
+        font-size: 12px;
         width: 80%;
+        font-weight: 400;
+    }
+    
+    .buy {
+        margin-top: 40px;
+        font-size: 22px;
+        font-weight: bold;
+    
+    }
+    
+    .getstarted {
+        width: 40%;
+        padding: 7px 7px;
+        border: none;
+        border-radius: 10px;
+        font-size: 13px;
+        opacity: 1;
+        background-color: white;
+    }
+    
+    .getstarted:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+    }
+    
+    .headerapp {
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+        margin-top: 30px;
+        gap: 0.5rem;
+        margin-bottom: 10px;
+    
+    }
+    
+    .header-image img {
+        position: absolute;
+        top: 3rem;
+        left: 6rem;
+        width: 400px;
+        opacity: 0.32;
+        overflow-y: hidden;
+    
     }
 
-    /* .buy{
-            font-size: 23px;
-            font-weight: 600;
-    }
-    .header-image img {
-        top: 4rem;
-        left: 7rem;
-        width: 400px;
-    } */
+
 
 }

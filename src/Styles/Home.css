@@ -7,8 +7,10 @@
 
 .wall {
     background-color: #F2F2F2;
+    /* height: 100%; */
 
 }
+
 
 .main {
     margin: 20px;
@@ -95,10 +97,16 @@
 
 }
 
-.buyorsellcrypto,
+
 .createafreeaccount {
     position: relative;
+    height: 60vmin;
+}
+
+.buyorsellcrypto {
+    position: relative;
     height: 50vmin;
+
 }
 
 #numberthree,
@@ -187,6 +195,10 @@
     border: none;
 }
 
+#creatings {
+    height: 100%;
+}
+
 @media (min-width: 390px) and (max-width: 424px) {
     .reasons {
         font-size: 15px;
@@ -238,128 +250,78 @@
     }
 
 }
+
 @media (min-width: 425px) and (max-width: 480px) {
     .reasons {
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .firstp {
-        font-size: 23px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
+        font-size: 15px;
 
     }
 
     .words {
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+        font-size: 14px;
     }
 
     .easymode,
     .investment,
     .finacial {
-        width: 230px;
+        width: 140px;
     }
 
     .simplesteps {
-        font-size: 30px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-
+        font-size: 15px;
 
     }
 
     .less-btn {
-        left: 10rem;
+        left: 6rem;
         width: 50%;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+        font-size: 15px;
     }
 
+    .depositp,
     .sellcryptop,
     .freeaccountp {
-        font-size: 25px;
+        font-size: 15px;
         top: 4px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        position: absolute;
-        left: 5rem;
     }
 
     .buyorsellsmall,
+    .depositsmall,
     .freesmall {
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        left: 5rem;
-        width: 70%;
-        top: 3.5rem;
-    }
-    .depositsmall{
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        width: 70%;
+        font-size: 14px;
+        font-weight: 500;
     }
 
     .learnmoreimage3,
     .learnmoreimage1 {
-        left: 32rem;
-        width: 230px;
-        top: 6rem;
+        left: 16rem;
     }
 
-    .learnmoreimage2 {
-        width: 270px;
-        position: relative;
-        left: 0rem;
-        top: 6rem;
-    }
-
-    .depositp,
-    .depositsmall {
-        position: absolute;
-        left: 14rem;
-
-    }
-    .depositp{
-        font-size: 25px;
-        top: 4px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-    }
-
-    #numberthree,
-    #numberone {
-        width: 40px;
-        position: absolute;
-        top: 8px;
-    }
-    #numbertwo {
-        width: 40px;
-        position: absolute;
-        top: 8px;
-        left: 9rem;
-    }
 }
+
 
 
 @media (min-width: 481px) and (max-width: 768px) {
     .reasons {
-        font-size: 20px;
+        font-size: 27px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
     }
 
     .firstp {
-        font-size: 18px;
+        font-size: 25px;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
 
     }
 
     .words {
-        font-size: 17px;
+        font-size: 23px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
     }
@@ -367,11 +329,11 @@
     .easymode,
     .investment,
     .finacial {
-        width: 200px;
+        width: 280px;
     }
 
     .simplesteps {
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
 
@@ -379,7 +341,7 @@
     }
 
     .less-btn {
-        left: 10rem;
+        left: 12rem;
         width: 50%;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
@@ -388,7 +350,7 @@
 
     .sellcryptop,
     .freeaccountp {
-        font-size: 20px;
+        font-size: 30px;
         top: 4px;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
@@ -398,15 +360,16 @@
 
     .buyorsellsmall,
     .freesmall {
-        font-size: 17px;
+        font-size: 23px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         left: 5rem;
         width: 70%;
         top: 3.5rem;
     }
-    .depositsmall{
-        font-size: 170px;
+
+    .depositsmall {
+        font-size: 23px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         width: 70%;
@@ -414,16 +377,16 @@
 
     .learnmoreimage3,
     .learnmoreimage1 {
-        left: 32rem;
-        width: 230px;
-        top: 6rem;
+        left: 28rem;
+        width: 290px;
+        top: 7rem;
     }
 
     .learnmoreimage2 {
-        width: 270px;
+        width: 300px;
         position: relative;
         left: 0rem;
-        top: 6rem;
+        top: 7rem;
     }
 
     .depositp,
@@ -432,9 +395,10 @@
         left: 14rem;
 
     }
-    .depositp{
-        font-size: 25px;
-        top: 4px;
+
+    .depositp {
+        font-size: 30px;
+        top: 3px;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
     }
@@ -443,12 +407,13 @@
     #numberone {
         width: 40px;
         position: absolute;
-        top: 8px;
+        top: 15px;
     }
+
     #numbertwo {
         width: 40px;
         position: absolute;
-        top: 8px;
+        top: 15px;
         left: 9rem;
     }
 }

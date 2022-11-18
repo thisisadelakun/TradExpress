@@ -23,7 +23,7 @@
     padding: 5px 30px;
     color: white;
     width: 50%;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -53,14 +53,18 @@
     color: white;
     display: flex;
 }
+.tradlogo{
+    margin: 0px 30px;
+}
 
 @media (min-width: 481px) and (max-width: 768px) {
 
     #bttn {
-        border: 1px solid white;
+        border: 2px solid white;
         padding: 15px 35px;
         color: white;
         width: 60%;
+      
         
 
     }

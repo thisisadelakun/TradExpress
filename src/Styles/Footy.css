@@ -4,12 +4,8 @@
 }
 
 .ourfoot {
-    margin: 20px 20px;
+    margin: 10px 20px;
     position: relative;
-    bottom: 3rem;
-
-
-
 }
 
 #legal p,
@@ -47,10 +43,8 @@
 }
 
 #copyright {
-    background-color: rgb(75, 4, 156);
+    background: linear-gradient(rgb(11, 11, 73), rgb(34, 3, 63));
     position: relative;
-    bottom: 2.5rem;
-
 }
 
 #copycat {
@@ -65,8 +59,9 @@
     color: white;
     font-weight: 600;
     position: relative;
-    left: 2rem;
+    /* left: 1rem; */
     top: 0.5rem;
+    text-align: center;
 
 }
 
@@ -98,20 +93,16 @@
         color: white;
         font-weight: 600;
         position: relative;
-        left: 8rem;
-
+        text-align: center;
         font-family: 'Roboto', sans-serif;
         height: 100%;
 
     }
-    #copyright {
-        background-color: rgb(75, 4, 156);
-        position: relative;
-        
-    
-    }
 
 
 
+
+}
+@media (min-width: 769px) and (max-width: 1024px){
 
 }
