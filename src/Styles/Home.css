@@ -417,3 +417,118 @@
         left: 9rem;
     }
 }
+@media (min-width: 769px) and (max-width: 1023px) {
+    .reasons {
+        font-size: 27px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    .firstp {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .words {
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .easymode,
+    .investment,
+    .finacial {
+        width: 300px;
+    }
+
+    .simplesteps {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+
+
+    }
+
+    .less-btn {
+        left: 12rem;
+        width: 50%;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    .sellcryptop,
+    .freeaccountp {
+        font-size: 28px;
+        top: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        position: absolute;
+        left: 5rem;
+    }
+
+    .buyorsellsmall,
+    .freesmall {
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        left: 5rem;
+        width: 70%;
+        top: 3.5rem;
+    }
+
+    .depositsmall {
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    .learnmoreimage3,
+    .learnmoreimage1 {
+        left: 28rem;
+        width: 280px;
+        top: 7.5rem;
+    }
+
+    .learnmoreimage2 {
+        width: 310px;
+        position: relative;
+        left: 0rem;
+        top: 7rem;
+    }
+
+    .depositp,
+    .depositsmall {
+        position: absolute;
+        left: 14rem;
+
+    }
+    .depositsmall {
+        top: 60px;
+    }
+
+    .depositp {
+        font-size: 28px;
+        top: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    #numberthree,
+    #numberone {
+        width: 50px;
+        position: absolute;
+        top: 10px;
+    }
+
+    #numbertwo {
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        left: 9rem;
+    }
+}

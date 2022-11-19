@@ -13,9 +13,9 @@ const Header = () => {
         <div className='headercontainer'>
             <div className='formobiles'>
                 <NavBar />
-                <div className='container'>
+                <div className='container2'>
                     <div className='header-text'>
-                        <p className='buy animate__animated animate__slower	3s animate__pulse animate__repeat-2	2'>Buy, sell and manage your <br /> Crypto on TradExpress.</p>
+                        <p className='buy animate__animated animate__slower	2s animate__pulse '>Buy, sell and manage your <br /> Crypto on TradExpress.</p>
                         <p className='easy'>Easily Trade Cryptocurrencies  like BTC, USDT, ETH, LTC & XRP with NGN.</p>
                         <button className='getstarted'>Get Started</button>
                         <div className="headerapp">
@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            
+
 
             <div className='fortabdesktop'>
                 <NavBar2/>

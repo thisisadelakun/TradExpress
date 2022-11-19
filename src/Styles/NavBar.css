@@ -6,6 +6,10 @@
 
 }
 
+.container1 {
+    margin: 20px;
+}
+
 .navcontainer {
     display: flex;
     justify-content: space-between;
@@ -13,9 +17,13 @@
 
 }
 
+.tabonly {
+    display: none;
+}
+
 .links {
     color: white;
-    
+
 }
 
 #bttn {
@@ -53,20 +61,15 @@
     color: white;
     display: flex;
 }
-.tradlogo{
-    margin: 0px 30px;
-}
 
-@media (min-width: 481px) and (max-width: 768px) {
+
+@media (min-width: 481px) and (max-width: 799px) {
 
     #bttn {
         border: 2px solid white;
         padding: 15px 35px;
         color: white;
         width: 60%;
-      
-        
-
     }
 
     #bttt {
@@ -79,4 +82,238 @@
     #basic-navbar-nav {
         font-size: 25px;
     }
+}
+
+@media (min-width:769px) and (max-width:883px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+    }
+    .mdefault{
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 3rem;
+        margin-top: 1rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 2px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    } 
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttts {
+        color: blue;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 2px solid rgb(155, 141, 141);
+    }
+
+
+
+    #bttso {
+        color: white;
+        display: flex;
+        font-size: 20px;
+        width: 100px;
+        margin: 5px;
+        cursor: pointer;
+
+
+    }
+    .tradoimage img{
+        width: 200px;
+    }
+}
+
+@media (min-width:884px) and (max-width:1023px) {
+
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 15rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 2px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: blue;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 2px solid rgb(155, 141, 141);
+    }
+
+
+
+    #bttso {
+        color: white;
+        display: flex;
+        font-size: 30px;
+        width: 100px;
+        margin: 5px;
+        /* padding: 30px; */
+
+
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 10rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 2px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: blue;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 2px solid rgb(155, 141, 141);
+    }
+
+
+
+    #bttso {
+        color: white;
+        display: flex;
+        font-size: 30px;
+        width: 100px;
+        margin: 5px;
+        /* padding: 30px; */
+
+
+    }
+
+
+
+
+
+
 }

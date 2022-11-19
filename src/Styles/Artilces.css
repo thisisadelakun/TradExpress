@@ -5,7 +5,7 @@
 }
 
 #getitcontent {
-    margin: 20px;
+    margin: 10px 20px;
     height: 100%;
 }
 
@@ -51,6 +51,7 @@
     position: relative;
     left: 1rem;
     top: 0.05rem;
+    
 }
 
 #storex {
@@ -188,12 +189,13 @@
         height: 50px;
         width: 40%;
         position: relative;
-        left: 13.7rem;
+        left: 14rem;
         bottom: 0px;
     }
 
     #storex {
         display: none;
+    }
 
     /* }
     .applestores,
@@ -230,20 +232,70 @@
         font-family: 'Inter', sans-serif;
         font-size: 19px;
         bottom: 20px;
-        width: 100%; */
-    }
+        width: 100%; 
+    }*/
+    
     #stores {
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
         width: 500px;
         position: relative;
-        left: 27%;
+        left: 29%;
         top: 2.8rem;   
     }
     .getit {
         height: 30vh;
     }
+    
+
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+    .tenminutes {
+        font-size: 20px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .created {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        bottom: 1rem;
+
+    }
+
+    .btn-gettingstarted {
+        font-size: 20px;
+        height: 50px;
+        width: 30%;
+        position: relative;
+        left: 17.3rem;
+        bottom: 2rem;
+    }
+
+    #storex {
+        display: none;
+    }
+
+    #stores {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 500px;
+        position: relative;
+        left: 29%;
+        top: -1rem;
+    }
+    #getitcontent {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
     
 
 }

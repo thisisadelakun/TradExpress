@@ -124,6 +124,12 @@
         width: 70%;
         font-weight: 400;
     }
+    .header-text {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        z-index: 1;
+        margin: 0px 20px;
+    }
 
     .buy {
         font-size: 50px;
@@ -163,15 +169,68 @@
 
 }
 
-@media (min-width: 769px) and (min-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1023px){
+    .easy {
+        font-size: 23px;
+        width: 70%;
+        font-weight: 400;
+    }
+    .header-text {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        z-index: 1;
+        margin: 0px 10px;
+    }
+
+    .buy {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* .header-image img {
+        top: 4rem;
+        left: 9rem;
+        width: 400px;
+    } */
+
+    .getstarted {
+        width: 41%;
+        padding: 10px 10px;
+        border: none;
+        font-size: 23px;
+        z-index: 1;
+    }
+    .headerapp {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        margin-top: 30px;
+        gap: 1rem;
+        margin-bottom: 20px;
+    
+    }
+
+    .header-image img{
+        position: absolute;
+        top: 6rem;
+        left: 19rem;
+        width: 600px;
+        overflow-y: hidden;
+    
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
     .fortabdesktop{
         display: inherit;
+        margin: 20px 30px;
+        
     }
     .formobiles{
         display: none;
     }
     .containerdesk{
-        margin: 20px;
+        
     }
     .header-text {
         color: white;
@@ -226,7 +285,9 @@
         overflow-y: hidden;
     
     }
-
-
-
+    .tradlogo{
+        width: 250px;
+        position: relative;
+        bottom: 1rem;;
+    }
 }

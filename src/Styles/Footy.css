@@ -43,15 +43,8 @@
 }
 
 #copyright {
-    background: linear-gradient(rgb(11, 11, 73), rgb(34, 3, 63));
+    background: linear-gradient(rgb(18, 18, 145), rgb(68, 40, 94));
     position: relative;
-}
-
-#copycat {
-    width: 80%;
-    color: black;
-    margin-left: 30px;
-
 }
 
 #reserved {
@@ -103,6 +96,55 @@
 
 
 }
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1023px){
+    #legal p,
+    #company p,
+    #contact p,
+    #learn p,
+    #products p {
+        font-size: 23px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+        
+
+    }
+
+    #legal a,
+    #company a,
+    #contact a,
+    #learn a,
+    #products a {
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    #products {
+        display: block;
+ 
+    }
+    /* #learn {
+        display: block;
+    } */
+    .ourfoot {
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        width: 100%;
+
+        
+    }
+    #reserved {
+        font-size: 23px;
+        color: white;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+
+    }
+    
 
 }

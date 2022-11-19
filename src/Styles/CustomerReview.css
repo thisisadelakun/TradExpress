@@ -1,15 +1,16 @@
 #imagingtext img {
     margin: 20px;
 }
-.container2{
+
+.container2 {
     margin: 0px 15px;
-    
+
 }
 
 #bayo,
 #ireti {
     width: 350px;
-   
+
 }
 
 .customerreview {
@@ -44,13 +45,13 @@
 
     #bayo,
     #ireti {
-        width: 550px;
+        width: 530px;
     }
 
     .customerreview {
-        font-size: 35px;
+        font-size: 33px;
         font-weight: 700;
-        margin: 10px;
+        margin: 20px;
         font-family: 'Roboto', sans-serif;
     }
 
@@ -61,17 +62,17 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1023px) {
 
-    #maincard3,
+    /* #maincard3,
     #maincard2,
     #maincard1 {
         position: relative;
         margin: 0px 20px;
         width: 390px;
-    }
+    } */
 
-    #cardp3,
+    /* #cardp3,
     #cardp2,
     #cardp1 {
         position: relative;
@@ -82,9 +83,9 @@
         width: 70%;
         left: 5rem;
         text-align: center;
-    }
+    } */
 
-    #quotation3,
+    /* #quotation3,
     #quotation2,
     #quotation1 {
         position: relative;
@@ -92,9 +93,9 @@
         left: 2rem;
         z-index: 1;
         color: black;
-    }
+    } */
 
-    #photoid3,
+    /* #photoid3,
     #photoid2,
     #photoid1 {
         position: relative;
@@ -103,6 +104,18 @@
         bottom: 7.5rem;
         z-index: 1;
 
+    } */
+
+    #bayo,
+    #ireti {
+        width: 580px;
+    }
+
+    .customerreview {
+        font-size: 35px;
+        font-weight: 700;
+        margin: 20px;
+        font-family: 'Roboto', sans-serif;
     }
 
 }

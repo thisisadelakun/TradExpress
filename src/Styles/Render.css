@@ -1,119 +1,210 @@
-*{ 
+* {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    
+
 }
+
 .rendering,
-.rendernew{
+.rendernew {
     background-color: #ede5f3;
 
 }
-.rendernew{
+
+.rendernew {
     margin: 7px;
 }
-.itsloading{
-    margin: 10px;
-    
 
+.itsloading {
+
+    background-image: linear-gradient(to bottom right, rgb(#dacee4), rgb(#ede5f3));
+    border-bottom: 1px solid #887499;
 }
-.loading{ 
+
+.loading {
     text-align: center;
-    color: blueviolet;
+    color: rgb(7, 0, 0);
 }
-.renderold{
+
+.renderold {
     display: none;
 }
-#datums{
-    display: flex;
-    flex-direction: column;  
-    margin: 10px 10px ;
-    font-family:'Inter', sans-serif;
-    
 
-    
+#datums {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    font-family: 'Inter', sans-serif;
+
+
+
 }
-.tk-blob{
-    width: 50px;
-}
-.symbol{
+
+.symbol {
     font-size: 17px;
     font-weight: 700;
 
 }
-.price-usd{
+
+.price-usd {
     font-size: 14px;
     font-weight: bold;
-    
+
 
 }
-#chng{
+
+#chng {
     font-size: 13px;
     color: blueviolet;
 }
-.hours24{
+
+.hours24 {
     font-size: 13px;
-} 
+}
 
 
 
-@media (min-width: 481px) and (max-width: 768px){
-    .symbol{
-        font-size: 30px;
+@media (min-width: 481px) and (max-width: 768px) {
+    .symbol {
+        font-size: 20px;
         /* font-weight: bold; */
 
-    
-    }
-    .price-usd{
-        font-size: 25px;
 
-    
     }
-    #chng{
-        font-size: 23px;
+
+    .price-usd {
+        font-size: 20px;
+
+
     }
-    .hours24{
-        font-size: 23px;
+
+    #chng {
+        font-size: 18px;
+    }
+
+    .hours24 {
+        font-size: 16px;
         position: relative;
         right: 0.5rem;
 
-    }   
-    .sub-coin{
+    }
+
+    .sub-coin {
         position: relative;
-       text-align: right;
-       bottom: 0.2rem;
-       
-       
+        text-align: right;
+        bottom: 0.2rem;
+
+
     }
-  
-    .rendernew{
+
+    .rendernew {
         display: none;
-       
+
     }
-    .renderold{
+
+    .renderold {
         display: flex;
-        flex-direction: row;  
-        font-family:'Inter', sans-serif;
+        flex-direction: row;
+        font-family: 'Inter', sans-serif;
         text-align: left;
         gap: 1rem;
         justify-content: space-between;
         border-bottom: 1px solid gray;
-        position: relative;  
-        width: 100%;  
+        position: relative;
+        width: 100%;
     }
-    .rendering{
-        margin: 0px 20px;
+
+    .rendering {
         background-color: #ede5f3;
+        margin: 20px;
     }
-    .coin{
+
+    .coin {
         display: flex;
         flex-direction: row;
         position: relative;
         gap: 2rem;
     }
-    .dating{
+
+    .dating {
         border-right: 1px solid rgb(201, 189, 189);
     }
 }
 
+@media (min-width: 769px) and (max-width: 1440px) {
+    .symbol {
+        font-size: 23px;
+        /* font-weight: bold; */
+
+
+    }
+
+    .loading {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .price-usd {
+        font-size: 18px;
+
+
+    }
+
+    #chng {
+        font-size: 17px;
+    }
+
+    .hours24 {
+        font-size: 17px;
+        position: relative;
+        right: 0.5rem;
+
+    }
+
+    .sub-coin {
+        position: relative;
+        text-align: right;
+        bottom: 0.2rem;
+
+
+    }
+
+    .rendernew {
+        display: none;
+
+    }
+
+    .renderold {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        gap: 1rem;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        position: relative;
+        width: 100%;
+    }
+
+    .rendering {
+        background-color: #ede5f3;
+    }
+
+    .coin {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 2rem;
+    }
+
+    .dating {
+        border-right: 1px solid rgb(201, 189, 189);
+    }
+
+    .itsloading {
+        height: 15vh;
+    }
+
+
+}
