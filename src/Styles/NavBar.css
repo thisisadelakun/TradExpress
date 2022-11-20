@@ -46,7 +46,7 @@
 #bttt:hover {
     background-color: rgb(155, 141, 141);
     color: rgb(7, 7, 75);
-    border: 1px solid rgb(155, 141, 141);
+
 }
 
 #basic-navbar-nav {
@@ -63,7 +63,7 @@
 }
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
     #bttn {
         border: 2px solid white;
@@ -74,30 +74,32 @@
 
     #bttt {
         padding: 15px 35px;
-        color: blue;
+        color: #7C20BE;
         width: 60%;
         z-index: 1;
     }
 
     #basic-navbar-nav {
-        font-size: 25px;
+        font-size: 16px;
     }
 }
 
-@media (min-width:769px) and (max-width:883px) {
+@media (min-width:768px) and (max-width:883px) {
+
     .tabonly {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 10px 20px;
+        margin: 5px 30px;
         position: relative;
     }
-    .mdefault{
+
+    .mdefault {
         display: none;
     }
 
     .burgess {
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-top: 1rem;
         display: flex;
     }
@@ -107,19 +109,7 @@
         color: white;
         z-index: 1;
         padding: 5px 30px;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        text-align: center;
-        cursor: pointer;
-
-    } 
-
-    #bttss,
-    #bttsso {
-        color: white;
-        z-index: 1;
-        font-size: 20px;
+        font-size: 14px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -127,12 +117,25 @@
 
     }
 
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        /* text-align: center; */
+        align-items: center;
+        cursor: pointer;
+
+    }
+
     #bttts {
-        color: blue;
+        color: #7C20BE;
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
-        font-size: 20px;
+        font-size: 14px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -144,7 +147,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 2px solid rgb(155, 141, 141);
     }
 
 
@@ -152,33 +154,52 @@
     #bttso {
         color: white;
         display: flex;
-        font-size: 20px;
+        font-size: 13px;
         width: 100px;
         margin: 5px;
         cursor: pointer;
+    }
 
+    .lontor {
+        display: flex;
+        gap: 0.1rem;
+        height: 2.3rem;
+        position: relative;
 
     }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 0.1rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.1rem;
+    }
 }
-@media (min-width:884px) and (max-width:992px) {
+
+@media (min-width:884px) and (max-width:951px) {
     .tabonly {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 10px 20px;
         position: relative;
-        
+
     }
-    .mdefault{
+
+    .mdefault {
         display: none;
     }
+
     .burgess {
-        margin-left: 13rem;
+        margin-left: 14rem;
         display: flex;
     }
 
     #bttns {
-        border: 2px solid white;
+        border: 1px solid white;
         color: white;
         z-index: 1;
         padding: 5px 30px;
@@ -197,7 +218,7 @@
     }
 
     #bttts {
-        color: blue;
+        color: #7C20BE;
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
@@ -212,18 +233,19 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 2px solid rgb(155, 141, 141);
     }
-    .lontor{
+
+    .lontor {
         display: flex;
         gap: 0.5rem;
     }
-    .sublontor1{
+
+    .sublontor1 {
         display: inline-flex;
         gap: 2rem;
     }
 
-    .sublontor2{
+    .sublontor2 {
         display: inline-flex;
         gap: 0.5rem;
     }
@@ -232,6 +254,79 @@
 
 
 
+}
+
+@media (min-width:952px) and (max-width:992px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 16rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 4px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
 }
 
 @media (min-width:993px) and (max-width:1023px) {
@@ -239,8 +334,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 10px 20px;
+        margin: 10px;
+        margin-left: 20px;
         position: relative;
+
     }
 
     .mdefault {
@@ -248,118 +345,23 @@
     }
 
     .burgess {
-        margin-left: 15rem;
+        margin-left: 18rem;
         display: flex;
     }
-
-    #bttns {
-        border: 2px solid white;
-        color: white;
-        z-index: 1;
-        padding: 5px 30px;
-
-    }
-
-    #bttss,
-    #bttsso {
-        color: white;
-        z-index: 1;
-        font-size: 17px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        text-align: center;
-
-    }
-
-    #bttts {
-        color: blue;
-        z-index: 1;
-        padding: 5px 20px;
-        margin-left: 7px;
-        font-size: 17px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        text-align: center;
-
-    }
-
-    #bttns:hover,
-    #bttts:hover {
-        background-color: rgb(155, 141, 141);
-        color: rgb(7, 7, 75);
-        border: 2px solid rgb(155, 141, 141);
-    }
-
-
-
-    #bttso {
-        color: white;
-        display: flex;
-        font-size: 30px;
-        width: 100px;
-        margin: 5px;
-        /* padding: 30px; */
-
-
-    }
-}
-
-
-@media (min-width:1024px) and (max-width:1439px) {
-    .tabonly{
-        display: flex;
-    }
-    .mdefault{
-        display: none;
-    }
-
-    .tabonly {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0px 30px;
-        position: relative;
-    }
-
-    .mdefault {
-        display: none;
-    }
-
-    .burgess {
-        margin-left: 33rem;
-        display: flex;
-        
-    }
-    .lontor{
-        display: flex;
-        gap: 0.5rem;
-    }
-    .sublontor1{
-        display: inline-flex;
-        gap: 2rem;
-    }
-
-    .sublontor2{
-        display: inline-flex;
-        gap: 0.5rem;
-    }
-   
 
     #bttns {
         border: 1px solid white;
         color: white;
         z-index: 1;
-        padding: 10px 60px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 13px;
+        padding: 7px 40px;
+        font-size: 13px
     }
 
     #bttss,
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 13px;
+        ;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         /* text-align: center; */
@@ -369,12 +371,12 @@
     #bttts {
         color: #7C20BE;
         z-index: 1;
-        padding: 10px 50px;
+        padding: 10px 30px;
         /* margin-left: 7px; */
         font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        
+
 
     }
 
@@ -382,22 +384,800 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 2px solid rgb(155, 141, 141);
+        border: 1px solid rgb(155, 141, 141);
     }
 
-
-
-    #bttso {
-        color: white;
+    .lontor {
         display: flex;
-        font-size: 13px;
-        width: 100px;
-        margin: 5px;
+        gap: 0.5rem;
+        position: relative;
 
 
     }
-    
 
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
 
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
 
+@media screen and  (min-width:1024px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 40px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 19rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color:#7C20BE;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+@media screen and  (min-width:1074px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 40px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 20rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color:#7C20BE;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1125px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 20rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1180px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 23rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width:1210px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 25rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width:1251px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 28rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 30px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1289px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 31rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+@media screen and (min-width:1320px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 32rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1351px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 35rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1401px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 38rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 20px;
+        position: relative;
+
+    }
+
+    .mdefault {
+        display: none;
+    }
+
+    .burgess {
+        margin-left: 40rem;
+        display: flex;
+    }
+
+    #bttns {
+        border: 1px solid white;
+        color: white;
+        z-index: 1;
+        padding: 10px 55px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 10px 40px;
+        margin-left: 7px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+        border: 1px solid rgb(155, 141, 141);
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.5rem;
+    }
 }

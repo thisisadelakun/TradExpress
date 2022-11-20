@@ -6,7 +6,8 @@
     margin: 0px 20px;
 
 }
-.contan3{
+
+.contan3 {
     display: none;
 }
 
@@ -65,6 +66,7 @@
 
 
 }
+
 @media (min-width: 600px) and (max-width: 767px) {
 
     #bayo,
@@ -87,7 +89,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .container3{
+    .container3 {
         display: none;
     }
 
@@ -135,7 +137,7 @@
 
     #bayo,
     #ireti {
-        width: 450px;
+        width: 300px;
     }
 
     .customerreview {
@@ -146,17 +148,17 @@
     }
 
 }
+
 @media screen and (min-width: 1024px) {
-    .container3{
+    .container3 {
         display: grid;
         /* grid-template-rows: repeat(3,1fr); */
-        /* margin: 0px 20px;
-        height: 100%;
-        width: 100%; */
+
     }
+
     #bayo,
     #ireti {
-        width: 331.9px;
+        width: 300.9px;
     }
 
     .customerreview {
@@ -165,14 +167,240 @@
         margin-top: 90px;
         font-family: 'Roboto', sans-serif;
     }
-    .container2{
+
+    .container2 {
         display: none;
     }
-    #imagingtext{
+
+    #imagingtext {
         align-items: center;
-        text-align: center;
+        /* text-align: center; */
         padding: 60px 0px;
     }
+
+    .contan3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #imagingtext2{
+        display: flex;
+        gap: 1rem;  
+        height: 100%;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    /* .custcunt{
+        height: 100%;
+    }
+    .cruise{
+        height: 100%;
+    } */
+
+}
+@media screen and (min-width: 1024px) {
+    .container3 {
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+
+    }
+
+    #bayo,
+    #ireti {
+        width: 360.9px;
+    }
+
+    .customerreview {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 90px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    #imagingtext {
+        align-items: center;
+        /* text-align: center; */
+        padding: 60px 0px;
+    }
+
+    .contan3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #imagingtext2{
+        display: flex;
+        gap: 1rem;  
+        height: 100%;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    /* .custcunt{
+        height: 100%;
+    }
+    .cruise{
+        height: 100%;
+    } */
+
+}
+@media screen and (min-width: 1288px) {
+    .container3 {
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+
+    }
+
+    #bayo,
+    #ireti {
+        width: 360.9px;
+    }
+
+    .customerreview {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 90px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    #imagingtext {
+        align-items: center;
+        /* text-align: center; */
+        padding: 60px 0px;
+    }
+
+    .contan3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #imagingtext2{
+        display: flex;
+        gap: 2rem;  
+        height: 100%;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    /* .custcunt{
+        height: 100%;
+    }
+    .cruise{
+        height: 100%;
+    } */
+
+}
+@media screen and (min-width: 1350px) {
+    .container3 {
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+
+    }
+
+    #bayo,
+    #ireti {
+        width: 380.9px;
+    }
+
+    .customerreview {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 90px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    #imagingtext {
+        align-items: center;
+        /* text-align: center; */
+        padding: 60px 0px;
+    }
+
+    .contan3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #imagingtext2{
+        display: flex;
+        gap: 2rem;  
+        height: 100%;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    /* .custcunt{
+        height: 100%;
+    }
+    .cruise{
+        height: 100%;
+    } */
+
+}
+@media screen and (min-width: 1400px) {
+    .container3 {
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+
+    }
+
+    #bayo,
+    #ireti {
+        width: 400.9px;
+    }
+
+    .customerreview {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 90px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    #imagingtext {
+        align-items: center;
+        /* text-align: center; */
+        padding: 60px 0px;
+    }
+
+    .contan3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #imagingtext2{
+        display: flex;
+        gap: 2rem;  
+        height: 100%;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
     /* .custcunt{
         height: 100%;
     }

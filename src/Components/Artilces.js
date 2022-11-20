@@ -22,10 +22,11 @@ const Artilces = () => {
                         </button>
 
                         <div id='stores'>
-                            <img src={Appstore} alt="" />
+                            <img  src={Appstore} alt="" />
                             <img src={Playstore} alt="" />
                         </div>
                     </div>
+
                     <div id='storex'>
                         <div className='applestores'>
                             <a href="#top">

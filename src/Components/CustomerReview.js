@@ -31,7 +31,7 @@ const CustomerReview = () => {
 
             <div className='contan3'>
                 <div className='container'>
-                    <div id='imagingtext'>
+                    <div id='imagingtext2'>
                         <img id='ireti' src={Ireti} alt="" />
                         <img id='ireti' src={Olagoke} alt="" />
                         <img id='bayo' src={Bayo} alt="" />

@@ -35,7 +35,7 @@ const Render = () => {
                     return (
                         <div className='dating'>
                             <div id='datums' key={id}>
-                                <p className='symbol'>{symbol} </p>
+                                <p className='symbol'>{symbol}/USD </p>
                                 <p className='price-usd'>${price_usd} </p>
                                 <p className='hours24'><span id='chng'>24h chg%: </span> {percent_change_24h}<img src={   percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" /></p>
                             </div>

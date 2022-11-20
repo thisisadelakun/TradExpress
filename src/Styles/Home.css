@@ -10,6 +10,9 @@
     height: 100%;
 
 }
+/* .mains{
+    border-top: 2px solid gray;
+} */
 
 
 .reasonsgallery1 {
@@ -199,6 +202,7 @@
     padding-bottom: 20px;
     position: relative;
     height: 100%;
+    padding-bottom: 50px;
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
@@ -246,6 +250,15 @@
     .learnmoreimage3,
     .learnmoreimage1 {
         left: 15rem;
+    }
+    .createafreeaccount,
+    .depositing,
+    .buyorsellcrypto {
+        padding: auto;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        position: relative;
+        height: 100%;
     }
 
 
@@ -382,8 +395,8 @@
     .depositing,
     .buyorsellcrypto {
         padding: auto;
-        padding-bottom: 40px;
-        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-top: 30px;
         position: relative;
         height: 100%;
     }
@@ -468,9 +481,9 @@
     .createafreeaccount,
     .depositing,
     .buyorsellcrypto {
-        padding: auto;
-        padding-bottom: 40px;
-        padding-top: 20px;
+        /* padding: auto; */
+        padding-bottom: 50px;
+        padding-top: 30px;
         position: relative;
         height: 100%;
     }
