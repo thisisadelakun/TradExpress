@@ -13,7 +13,7 @@
 #contact p,
 #learn p,
 #products p {
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
     border-bottom: 1px solid rgb(122, 116, 116);
 }
@@ -23,7 +23,7 @@
 #contact a,
 #learn a,
 #products a {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     text-decoration: none;
     color: rgb(75, 4, 156);
@@ -43,14 +43,13 @@
 }
 
 #copyright {
-    background: linear-gradient(rgb(18, 18, 145), rgb(68, 40, 94));
     position: relative;
+    background-color: #F2F2F2;
 }
 
 #reserved {
-    font-size: 13px;
-    color: white;
-    font-weight: 600;
+    font-size: 10px;
+    color: black;
     position: relative;
     /* left: 1rem; */
     top: 0.5rem;
@@ -65,7 +64,7 @@
     #contact p,
     #learn p,
     #products p {
-        font-size: 27px;
+        font-size: 15px;
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
 
@@ -76,15 +75,13 @@
     #contact a,
     #learn a,
     #products a {
-        font-size: 23px;
+        font-size: 12px;
         font-weight: 400;
         text-decoration: none;
     }
 
     #reserved {
-        font-size: 19px;
-        color: white;
-        font-weight: 600;
+        font-size: 12px;
         position: relative;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -102,7 +99,7 @@
     #contact p,
     #learn p,
     #products p {
-        font-size: 23px;
+        font-size: 16px;
         font-weight: 700;
         font-family: 'Roboto', sans-serif;
         border: none;
@@ -115,7 +112,7 @@
     #contact a,
     #learn a,
     #products a {
-        font-size: 20px;
+        font-size: 13px;
         font-weight: 400;
         text-decoration: none;
     }
@@ -137,9 +134,56 @@
     }
     #reserved {
         font-size: 23px;
-        color: white;
-        font-weight: 600;
         position: relative;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+
+    }
+    
+
+}
+@media screen and (min-width: 1024px){
+    #legal p,
+    #company p,
+    #contact p,
+    #learn p,
+    #products p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+        
+
+    }
+
+    #legal a,
+    #company a,
+    #contact a,
+    #learn a,
+    #products a {
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    #products {
+        display: block;
+ 
+    }
+    #learn {
+        display: block;
+    }
+    .ourfoot {
+        margin: 20px 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        width: 100%;
+
+        
+    }
+    #reserved {
+        font-size: 18px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         height: 100%;

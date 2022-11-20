@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import TradLogo from '../Assets/TradExpressLogo.png'
-import '../Styles/NavBar2.css'
+import '../Styles/NavBar.css'
 
 const NavBar2 = () => {
     return (

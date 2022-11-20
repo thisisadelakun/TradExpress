@@ -13,7 +13,7 @@ const Header = () => {
         <div className='headercontainer'>
             <div className='formobiles'>
                 <NavBar />
-                <div className='container2'>
+                <div className='container'>
                     <div className='header-text'>
                         <p className='buy animate__animated animate__slower	2s animate__pulse '>Buy, sell and manage your <br /> Crypto on TradExpress.</p>
                         <p className='easy'>Easily Trade Cryptocurrencies  like BTC, USDT, ETH, LTC & XRP with NGN.</p>

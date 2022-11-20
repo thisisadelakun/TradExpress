@@ -9,20 +9,22 @@ const Artilces = () => {
     return (
         <div>
             <div className='getit'>
-                <div id='getitcontent'>
-                    <p className='tenminutes'>
-                        Ready to trade Buy/Sell cryptocurrencies in just 10 minutes?
-                    </p>
-                    <p className='created'>
-                        Create your account for free and start trading today!
-                    </p>
-                    <button className="btn-gettingstarted">
-                        Get Started
-                    </button>
+                <div id='container'>
+                    <div className='container'>
+                        <p className='tenminutes'>
+                            Ready to trade Buy/Sell cryptocurrencies in just 10 minutes?
+                        </p>
+                        <p className='created'>
+                            Create your account for free and start trading today!
+                        </p>
+                        <button className="btn-gettingstarted">
+                            Get Started
+                        </button>
 
-                    <div id='stores'>
-                        <img src={Appstore} alt="" />
-                        <img src={Playstore} alt="" />
+                        <div id='stores'>
+                            <img src={Appstore} alt="" />
+                            <img src={Playstore} alt="" />
+                        </div>
                     </div>
                     <div id='storex'>
                         <div className='applestores'>

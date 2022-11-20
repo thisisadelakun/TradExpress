@@ -37,7 +37,7 @@ const Render = () => {
                             <div id='datums' key={id}>
                                 <p className='symbol'>{symbol} </p>
                                 <p className='price-usd'>${price_usd} </p>
-                                <p className='hours24'><span id='chng'>24h chg%: </span> {percent_change_24h}% <img src={percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" /></p>
+                                <p className='hours24'><span id='chng'>24h chg%: </span> {percent_change_24h}<img src={   percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" /></p>
                             </div>
                         </div>
                     )
@@ -57,7 +57,7 @@ const Render = () => {
                                             <button className='btn btn-percent' id='chng'> 24h chg% </button > <br />
                                             <span className='hours24'>
                                                 {percent_change_24h}%
-                                                <img src={percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" />
+                                                <img src={ percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" width={12}/>
                                             </span>
                                         </div>
                                     </div>

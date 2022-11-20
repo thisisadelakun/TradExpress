@@ -25,7 +25,7 @@ const NavBar = () => {
             </Navbar> */}
 
             <div className='mdefault'>
-                <Navbar bg="" expand="lg">
+                <Navbar expand="lg">
                     <Container>
                         <Navbar.Brand href="#home"><img src={TradLogo} alt="" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -50,10 +50,14 @@ const NavBar = () => {
                     </div>
                     <div className='burgess'>
                         <Nav className='lontor'>
-                            <Nav.Link href="#home" id='bttss'>Instant Buy/Sell</Nav.Link>
-                            <Nav.Link href="#home" id='bttsso'>Learn</Nav.Link>
-                            <Nav.Link href="#link" id='bttns' className='btn btn'>Login</Nav.Link> <br />
-                            <Nav.Link href="#link" id='bttts' className='btn btn-light ' >Get Started</Nav.Link>
+                            <div className='sublontor1'>
+                                <Nav.Link href="#home" id='bttss'>Instant Buy/Sell</Nav.Link>
+                                <Nav.Link href="#home" id='bttsso'>Learn</Nav.Link>
+                            </div>
+                            <div className='sublontor2'>
+                                <Nav.Link href="#link" id='bttns' className='btn btn'>Login</Nav.Link> <br />
+                                <Nav.Link href="#link" id='bttts' className='btn btn-light ' >Get Started</Nav.Link>
+                            </div>
                         </Nav>
                     </div>
                 </Navbar>

@@ -3,18 +3,21 @@
 }
 
 .container2 {
-    margin: 0px 15px;
+    margin: 0px 20px;
 
+}
+.contan3{
+    display: none;
 }
 
 #bayo,
 #ireti {
-    width: 350px;
+    width: 260px;
 
 }
 
 .customerreview {
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 700;
     text-align: center;
     margin: 10px;
@@ -26,30 +29,51 @@
 }
 
 
-@media (min-width: 390px) and (max-width: 424px) {
+@media (min-width: 390px) and (max-width: 480px) {
 
     #bayo,
     #ireti {
-        width: 380px;
+        width: 260px;
     }
 
     .customerreview {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 700;
         margin: 10px;
     }
 }
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+
+@media (min-width: 481px) and (max-width: 599px) {
 
     #bayo,
     #ireti {
-        width: 530px;
+        width: 300px;
     }
 
     .customerreview {
-        font-size: 33px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #imagingreviews {
+        display: none;
+    }
+
+
+}
+@media (min-width: 600px) and (max-width: 767px) {
+
+    #bayo,
+    #ireti {
+        width: 300px;
+    }
+
+    .customerreview {
+        font-size: 22px;
         font-weight: 700;
         margin: 20px;
         font-family: 'Roboto', sans-serif;
@@ -62,7 +86,10 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container3{
+        display: none;
+    }
 
     /* #maincard3,
     #maincard2,
@@ -108,14 +135,49 @@
 
     #bayo,
     #ireti {
-        width: 580px;
+        width: 450px;
     }
 
     .customerreview {
-        font-size: 35px;
+        font-size: 27px;
         font-weight: 700;
         margin: 20px;
         font-family: 'Roboto', sans-serif;
     }
+
+}
+@media screen and (min-width: 1024px) {
+    .container3{
+        display: grid;
+        /* grid-template-rows: repeat(3,1fr); */
+        /* margin: 0px 20px;
+        height: 100%;
+        width: 100%; */
+    }
+    #bayo,
+    #ireti {
+        width: 331.9px;
+    }
+
+    .customerreview {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 90px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container2{
+        display: none;
+    }
+    #imagingtext{
+        align-items: center;
+        text-align: center;
+        padding: 60px 0px;
+    }
+    /* .custcunt{
+        height: 100%;
+    }
+    .cruise{
+        height: 100%;
+    } */
 
 }

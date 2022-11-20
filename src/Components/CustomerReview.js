@@ -13,7 +13,7 @@ import Quote from '../Assets/quote-line.png'
 
 const CustomerReview = () => {
     return (
-        <div>
+        <div className='custcunt'>
             <div className='articulate'>
                 <p className="customerreview">
                     Customer's Review
@@ -27,6 +27,16 @@ const CustomerReview = () => {
                         <img id='bayo' src={Bayo} alt="" />
                     </div>
                 </Marquee>
+            </div>
+
+            <div className='contan3'>
+                <div className='container'>
+                    <div id='imagingtext'>
+                        <img id='ireti' src={Ireti} alt="" />
+                        <img id='ireti' src={Olagoke} alt="" />
+                        <img id='bayo' src={Bayo} alt="" />
+                    </div>
+                </div>
             </div>
 
 
