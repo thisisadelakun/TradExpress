@@ -57,9 +57,6 @@
 
 }
 .gotop{
-    position: relative;
-    bottom: 5rem;
-    align-items: flex-end;
     text-align: right;
 }
 .gotopping{
