@@ -4,6 +4,7 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaTelegram } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
+import {BiArrowToTop} from 'react-icons/bi'
 
 
 const Footy = () => {
@@ -59,6 +60,12 @@ const Footy = () => {
             <div id='copyright'>
                 <div className='copyingright'>
                     <p id='reserved'>© 2021 TradeExpress Technologies All Rights Reserved.</p>
+                </div>
+            </div>
+
+            <div className='gotop'>
+                <div className='container'>
+                <a className='gotopping' href="#top"><BiArrowToTop/></a>
                 </div>
             </div>
         </div>

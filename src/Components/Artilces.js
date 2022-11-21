@@ -22,7 +22,7 @@ const Artilces = () => {
                         </button>
 
                         <div id='stores'>
-                            <img  src={Appstore} alt="" />
+                            <img src={Appstore} alt="" />
                             <img src={Playstore} alt="" />
                         </div>
                     </div>

@@ -56,6 +56,16 @@
     text-align: center;
 
 }
+.gotop{
+    position: relative;
+    bottom: 5rem;
+    align-items: flex-end;
+    text-align: right;
+}
+.gotopping{
+    color: blueviolet;
+    font-size: 20px;
+}
 
 @media (min-width: 481px) and (max-width: 768px) {
 
@@ -88,6 +98,7 @@
         height: 100%;
 
     }
+    
 
 
 
