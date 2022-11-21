@@ -80,7 +80,7 @@
     }
 
     #basic-navbar-nav {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -109,7 +109,7 @@
         color: white;
         z-index: 1;
         padding: 5px 30px;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -121,7 +121,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         /* text-align: center; */
@@ -135,7 +135,7 @@
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -210,7 +210,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -222,7 +222,7 @@
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -287,7 +287,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -299,7 +299,7 @@
         z-index: 1;
         padding: 5px 20px;
         margin-left: 4px;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -310,7 +310,7 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
+
     }
 
     .lontor {
@@ -384,7 +384,7 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
+
     }
 
     .lontor {
@@ -437,7 +437,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -449,7 +449,7 @@
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -460,7 +460,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -509,7 +508,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -521,7 +520,7 @@
         z-index: 1;
         padding: 5px 20px;
         margin-left: 7px;
-        font-size: 15px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -532,7 +531,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -575,7 +573,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -584,7 +582,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -596,7 +594,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -607,7 +605,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -650,7 +647,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -659,7 +656,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -671,7 +668,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -680,7 +677,7 @@
 
 }
 
-@media screen and (min-width:1210px) {
+@media (min-width:1210px) and  (max-width:1250) {
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -704,7 +701,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -713,7 +710,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -725,7 +722,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -733,7 +730,7 @@
     }
 }
 
-@media screen and (min-width:1251px) {
+@media (min-width:1251px) and (max-width:1288px){
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -757,7 +754,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -766,7 +763,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -778,7 +775,7 @@
         z-index: 1;
         padding: 10px 30px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -789,7 +786,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -808,7 +804,7 @@
     }
 }
 
-@media screen and (min-width:1289px) {
+@media (min-width:1289px) and (max-width:1319px) {
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -832,7 +828,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -841,7 +837,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -853,7 +849,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -882,7 +878,7 @@
         gap: 0.5rem;
     }
 }
-@media screen and (min-width:1320px) {
+@media (min-width:1320px) and (max-width:1350) {
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -906,7 +902,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -915,7 +911,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -927,7 +923,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -938,7 +934,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -957,7 +952,7 @@
     }
 }
 
-@media screen and (min-width:1351px) {
+@media screen and (min-width:1351px) and (max-width:1400px) {
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -981,7 +976,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -990,7 +985,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -1002,7 +997,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -1013,7 +1008,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {
@@ -1032,7 +1026,7 @@
     }
 }
 
-@media screen and (min-width:1401px) {
+@media (min-width:1401px) and (max-width:1439px) {
     .tabonly {
         display: flex;
         flex-direction: row;
@@ -1056,7 +1050,7 @@
         color: white;
         z-index: 1;
         padding: 10px 55px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
 
     }
@@ -1065,7 +1059,7 @@
     #bttsso {
         color: white;
         z-index: 1;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -1077,7 +1071,7 @@
         z-index: 1;
         padding: 10px 40px;
         margin-left: 7px;
-        font-size: 17px;
+        font-size: 13px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-align: center;
@@ -1088,7 +1082,6 @@
     #bttts:hover {
         background-color: rgb(155, 141, 141);
         color: rgb(7, 7, 75);
-        border: 1px solid rgb(155, 141, 141);
     }
 
     .lontor {

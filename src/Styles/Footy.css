@@ -133,7 +133,7 @@
         
     }
     #reserved {
-        font-size: 23px;
+        font-size: 13px;
         position: relative;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -183,7 +183,7 @@
         
     }
     #reserved {
-        font-size: 23px;
+        font-size: 14px;
         position: relative;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -221,20 +221,22 @@
         display: block;
  
     }
-    /* #learn {
+    #learn {
         display: block;
-    } */
+    }
     .ourfoot {
         margin: 20px 20px;
         display: flex;
         flex-direction: row;
         gap: 4.5rem;
         width: 100%;
+        position: relative;
+        left: 4rem;
 
         
     }
     #reserved {
-        font-size: 23px;
+        font-size: 15px;
         position: relative;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -281,11 +283,14 @@
         flex-direction: row;
         gap: 5rem;
         width: 100%;
+        position: relative;
+        left: 3rem;
+
 
         
     }
     #reserved {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         height: 100%;
