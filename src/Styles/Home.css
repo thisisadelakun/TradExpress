@@ -198,11 +198,9 @@
 .createafreeaccount,
 .depositing,
 .buyorsellcrypto {
-    padding: auto;
     padding-top: 20px;
     position: relative;
-    height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
@@ -254,11 +252,10 @@
     .createafreeaccount,
     .depositing,
     .buyorsellcrypto {
-        padding: auto;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         padding-top: 20px;
         position: relative;
-        height: 100%;
+
     }
 
 
@@ -319,8 +316,7 @@
     .createafreeaccount,
     .depositing,
     .buyorsellcrypto {
-        padding: auto;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
         padding-top: 20px;
         position: relative;
         height: 100%;
@@ -391,12 +387,12 @@
         width: 150px;
     }
 
+    
     .createafreeaccount,
     .depositing,
     .buyorsellcrypto {
-        padding: auto;
         padding-bottom: 50px;
-        padding-top: 30px;
+        padding-top: 100px;
         position: relative;
         height: 100%;
     }
@@ -483,7 +479,7 @@
     .buyorsellcrypto {
         /* padding: auto; */
         padding-bottom: 50px;
-        padding-top: 30px;
+        padding-top: 50px;
         position: relative;
         height: 100%;
     }

@@ -80,7 +80,6 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .symbol {
         font-size: 13px;
-        border-bottom: 1px solid gray;
 
 
     }
