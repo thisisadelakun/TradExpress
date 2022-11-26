@@ -15,6 +15,7 @@ import Numberthree from '../Assets/emojione-monotone_keycap-3.png'
 import CustomerReview from './CustomerReview'
 import Footy from './Footy'
 import { useState } from 'react'
+import Render2 from './Render2'
 
 const Home = () => {
     const [less, setLess] = useState(false)
@@ -23,6 +24,7 @@ const Home = () => {
         <div className='wall'>
             <Header />
             <Render />
+            <Render2/>
             <div className='mains'>
                 <p className="reasons">Why do people get involved with Cryptocurrencies?</p>
                 <div className='submains'>

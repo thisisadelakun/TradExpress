@@ -16,7 +16,7 @@
     margin: 7px;
 }
 
-.itsloading {
+.itsloading1{
 
     background-image: linear-gradient(to bottom right, rgb(#dacee4), rgb(#ede5f3));
     border-bottom: 1px solid #887499;
@@ -66,6 +66,13 @@
 .rendering {
     background-color: white;
 }
+@media screen and (min-width:481px){
+    .itsloading1{
+        display: none;
+    }
+
+    
+}
 
 
 @media screen and (max-width: 480px) {
@@ -77,7 +84,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and  (min-width: 481px){
     .symbol {
         font-size: 13px;
 
@@ -125,7 +132,7 @@
     }
 
     .rendering {
-        margin: 0px 30px;
+        margin: 0px 10px;
 
     }
 
@@ -198,7 +205,7 @@
     }
 
     .rendering {
-        margin: 0px 30px;
+        margin: 0px 10px;
 
     }
 
@@ -213,7 +220,7 @@
         border-right: 1px solid rgb(201, 189, 189);
     }
 
-    .itsloading {
+    .itsloading2{
         height: 15vh;
     }
 
@@ -276,7 +283,7 @@
 
     .rendering {
         background-color: white;
-        margin: 0px 30px;
+        margin: 0px 10px;
 
     }
 
@@ -352,7 +359,7 @@
 
     .rendering {
         background-color: white;
-        margin: 0px 30px;
+        margin: 0px 20px;
 
     }
 

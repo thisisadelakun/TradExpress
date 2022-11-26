@@ -74,6 +74,9 @@
 
 
 }
+/* .learningeveryday{
+    height: 100%;
+} */
 
 .btn-learnmore {
     width: 50%;
@@ -85,6 +88,7 @@
     font-size: 10px;
     padding: 5px;
     display: none;
+
 
 }
 
@@ -686,6 +690,7 @@
         text-align: center;
         position: relative;
         right: 5rem;
+        
        
         
     }
@@ -698,7 +703,7 @@
         border: 1px solid black;
         color: black;
         font-size: 13px;
-        height: 2rem;
+        height: 2.2rem;
         position: relative;
         margin-top: 10px;
         justify-content: center;
@@ -855,7 +860,7 @@
         border: 1px solid black;
         color: black;
         font-size: 13px;
-        height: 2rem;
+        height: 2.2rem;
         position: relative;
         margin-top: 10px;
         justify-content: center;
