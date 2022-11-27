@@ -56,11 +56,19 @@
 
 }
 .gotop{
-    text-align: right;
+    /* text-align: right; */
+    /* position: sticky;
+    display: flex;
+    justify-content: right; */
+    width: 100%;
 }
 .gotopping{
     color: blueviolet;
     font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: right;
 }
 
 @media screen and  (min-width: 481px){
@@ -134,8 +142,8 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        gap: 2rem;
-        justify-content: center;
+        justify-content: space-between;
+        margin-left: 25px;
 
         
     }
@@ -148,33 +156,5 @@
 
     }
     
-
-}
-@media screen and (min-width: 900px){
-   
-    .ourfoot {
-
-        gap: 3rem;
-
-
-        
-    }     
-}
-@media screen and (min-width: 1200px){
-    .ourfoot {
-        gap: 4rem;
-
-
-        
-    }
-
-    
-}
-@media screen and (min-width: 1440px){
-    .ourfoot {
-        gap: 6rem;
-
-        
-    }
 
 }

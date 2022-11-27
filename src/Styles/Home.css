@@ -230,6 +230,7 @@
 
     .simplesteps {
         font-size: 13px;
+        margin: 40px 0px;
 
     }
 
@@ -291,6 +292,7 @@
 
     .simplesteps {
         font-size: 14px;
+        margin: 50px 0px;
 
     }
 
@@ -365,6 +367,7 @@
 
     .simplesteps {
         font-size: 16px;
+        margin: 60px 0px;
 
     }
 
@@ -436,6 +439,7 @@
 
     .simplesteps {
         font-size: 18px;
+        margin: 60px 0px;
 
     }
 
@@ -536,6 +540,7 @@
 
     .simplesteps {
         font-size: 23px;
+        margin: 70px 0px;
     }
 
     .less-btn {
@@ -713,11 +718,9 @@
 
     .simplesteps {
         font-size: 29px;
+        margin: 70px 0px;
     }
 
-    /* #creatings {
-        margin: 20px 30px;
-    } */
 
     #numberone,
     #numberthree {
@@ -871,11 +874,9 @@
 
     .simplesteps {
         font-size: 30px;
+        margin: 80px 0px;
     }
 
-    /* #creatings {
-        margin: 20px 30px;
-    } */
 
     #numberone,
     #numberthree {

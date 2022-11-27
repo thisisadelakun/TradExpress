@@ -62,12 +62,7 @@
     display: flex;
 }
 
-.tabletont{
-    display: flex;
-    width: 100%;
-    margin: 0px 20px;
-    justify-content: space-between
-}
+
 
 
 @media (min-width: 481px) and (max-width: 576px) {
@@ -92,26 +87,241 @@
 }
 @media screen and  (min-width: 577px){
     .tabonly {
-        z-index: 1;
-        top: 0;
-        left: 0;
         display: flex;
-        width: 100%;
-        
-        
+        flex-direction: row;
+        z-index: 1;      
     }
+    #bttso,
+    #bttts,
+    #bttss,
+    #bttsso{
+        font-size: 12px;
+    }
+    .mdefault {
+        display: none;
+    }
+    #tabitha{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .tablecomp{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .burgresss {
+        margin-top: 1rem;
+    }
+
+    #bttns {
+        border: 2px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        /* text-align: center; */
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+    }
+
+
+
+    #bttso {
+        color: white;
+        display: flex;
+        font-size: 13px;
+        width: 100px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.1rem;
+        height: 2.3rem;
+        position: relative;
+
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 0.7rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.1rem;
+    }
+
+}
+@media screen and  (min-width: 584px){
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;      
+    }
+    #bttso,
+    #bttts,
+    #bttss,
+    #bttsso{
+        font-size: 12px;
+    }
+    .mdefault {
+        display: none;
+    }
+    #tabitha{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .tablecomp{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .burgresss {
+        margin-top: 1rem;
+    }
+
+    #bttns {
+        border: 2px solid white;
+        color: white;
+        z-index: 1;
+        padding: 5px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttss,
+    #bttsso {
+        color: white;
+        z-index: 1;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        /* text-align: center; */
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    #bttts {
+        color: #7C20BE;
+        z-index: 1;
+        padding: 5px 20px;
+        margin-left: 7px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #bttns:hover,
+    #bttts:hover {
+        background-color: rgb(155, 141, 141);
+        color: rgb(7, 7, 75);
+    }
+
+
+
+    #bttso {
+        color: white;
+        display: flex;
+        font-size: 13px;
+        width: 100px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .lontor {
+        display: flex;
+        gap: 0.1rem;
+        height: 2.3rem;
+        position: relative;
+
+    }
+
+    .sublontor1 {
+        display: inline-flex;
+        gap: 1.2rem;
+    }
+
+    .sublontor2 {
+        display: inline-flex;
+        gap: 0.1rem;
+    }
+
+}
+/*  */
+
+@media screen and  (min-width: 616px){
+    .tabonly {
+        display: flex;
+        flex-direction: row;
+        z-index: 1;      
+    }
+    #tabitha{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .tablecomp{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0px 25px;
+    }
+
 
     .mdefault {
         display: none;
     }
 
-    .burgess {
-        margin-right: 0rem;
+    .burgresss {
         margin-top: 1rem;
-        /* float: left;
-        display: flex;
-        justify-items: flex-end;
-        margin-left: 10%; */
     }
 
     #bttns {
@@ -180,7 +390,7 @@
 
     .sublontor1 {
         display: inline-flex;
-        gap: 0.1rem;
+        gap: 2rem;
     }
 
     .sublontor2 {

@@ -12,7 +12,7 @@ const NavBar = () => {
 
 
             <div className='mdefault'>
-                <Navbar expand="fluid">
+                <Navbar expand="lg">
                     <Container>
                         <Navbar.Brand href="#home"><img src={TradLogo} alt="" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,12 +31,15 @@ const NavBar = () => {
 
 
             <div className='tabonly'>
-                <Navbar bg="" variant="dark">
-                    <div className='tabletont'>
+
+                <Navbar id='tabitha' variant="dark">
+
+                    <div className='tablecomp'>
                         <div className='tradoimage'>
                             <Navbar.Brand href="#home"><img className='tradsss' src={TradLogo} alt="" /></Navbar.Brand>
                         </div>
-                        <div className='burgess'>
+
+                        <div className='burgresss'>
                             <Nav className='lontor'>
                                 <div className='sublontor1'>
                                     <Nav.Link href="#home" id='bttss'>Instant Buy/Sell</Nav.Link>
@@ -48,8 +51,11 @@ const NavBar = () => {
                                 </div>
                             </Nav>
                         </div>
+
                     </div>
+
                 </Navbar>
+
             </div>
 
         </div>
