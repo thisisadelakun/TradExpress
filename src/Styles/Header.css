@@ -92,6 +92,16 @@
 
 
 }
+.headers01-images01{
+    display: flex;
+    width: 400px;
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+    justify-content: right;
+    opacity: 0.24;
+
+}
 
 @media screen and  (min-width: 481px)  {
     .easy {

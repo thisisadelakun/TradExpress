@@ -25,9 +25,9 @@ const Header = () => {
 
                         </div>
 
-                        {/* <div className='header-image'>
+                        <div className='headers01-images01'>
                                 <img className='fluid' src={bgrc} alt="" />
-                            </div> */}
+                            </div>
 
                     </div>
                 </div>
