@@ -16,6 +16,10 @@
     margin: 7px;
 }
 
+.itsloading2{
+    display: none;
+}
+
 .itsloading1{
 
     background-image: linear-gradient(to bottom right, rgb(#dacee4), rgb(#ede5f3));
@@ -76,6 +80,12 @@
 
 
 @media screen and (max-width: 480px) {
+    .itsloading2 {
+        height: 15vh;
+    }
+    .itsloading1{
+        display: none;
+    }
     .symbol {
         font-size: 13px;
         border-bottom: 1px solid gray;
@@ -220,8 +230,11 @@
         border-right: 1px solid rgb(201, 189, 189);
     }
 
-    .itsloading2{
+    .itsloading2 {
         height: 15vh;
+    }
+    .itsloading1{
+        display: none;
     }
 
 
@@ -298,8 +311,11 @@
         border-right: 1px solid rgb(201, 189, 189);
     }
 
-    .itsloading {
+    .itsloading2 {
         height: 15vh;
+    }
+    .itsloading1{
+        display: none;
     }
 
 }
@@ -330,20 +346,16 @@
         font-size: 13px;
         position: relative;
         right: 0.5rem;
-
     }
 
     .sub-coin {
         position: relative;
         text-align: right;
         bottom: 0.2rem;
-
-
     }
 
     .rendernew {
         display: none;
-
     }
 
     .renderold {
@@ -360,7 +372,6 @@
     .rendering {
         background-color: white;
         margin: 0px 20px;
-
     }
 
     .coin {
@@ -374,8 +385,11 @@
         border-right: 1px solid rgb(201, 189, 189);
     }
 
-    .itsloading {
+    .itsloading2 {
         height: 15vh;
+    }
+    .itsloading1{
+        display: none;
     }
 
 }
