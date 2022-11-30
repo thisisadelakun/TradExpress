@@ -10,9 +10,7 @@
     height: 100%;
 
 }
-/* .mains{
-    border-top: 2px solid gray;
-} */
+
 
 
 .reasonsgallery1 {
@@ -71,12 +69,10 @@
     border: none;
     text-align: right;
     padding: 5px 20px;
+    
 
 
 }
-/* .learningeveryday{
-    height: 100%;
-} */
 
 .btn-learnmore {
     width: 50%;
@@ -106,7 +102,7 @@
 #numberone {
     width: 15px;
     position: absolute;
-    top: 4px;
+    top: 3px;
 }
 
 .sellcryptop,
@@ -125,7 +121,7 @@
     font-weight: 400;
     position: absolute;
     left: 2rem;
-    top: 1.2rem;
+    top: 1.5rem;
     width: 50%;
     font-family: 'Inter', sans-serif;
 }
@@ -134,7 +130,7 @@
 .learnmoreimage1 {
     width: 80px;
     position: relative;
-    left: 13rem;
+    left: 12rem;
     top: 0px;
 }
 
@@ -143,30 +139,31 @@
     width: 15px;
     position: absolute;
     top: 4px;
-    left: 8rem;
+    left: 6rem;
 }
 
 .depositp {
     font-size: 13px;
     font-weight: 700;
     position: absolute;
-    left: 10rem;
+    left: 8rem;
     top: 0px;
 }
+
 
 .depositsmall {
     font-size: 10px;
     font-weight: 400;
     position: absolute;
-    left: 10rem;
-    top: 1.2rem;
+    left: 8rem;
+    top: 1.5rem;
     width: 50%;
 }
 
 .learnmoreimage2 {
-    width: 150px;
+    width: 120px;
     position: relative;
-    left: 0rem;
+    left: -1rem;
     top: 0px;
 }
 
@@ -194,9 +191,7 @@
 }
 
 #container1 {
-    padding: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 20px 0px;
 }
 
 .createafreeaccount,
@@ -207,7 +202,14 @@
     padding-bottom: 70px;
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
+.stepscontent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+@media screen and (min-width: 375px) {
     .reasons {
         font-size: 13px;
     }
@@ -247,26 +249,27 @@
     .freesmall {
         font-size: 10px;
         font-weight: 500;
-        top: 1.2rem;
+        top: 1.6rem;
     }
 
     .learnmoreimage3,
     .learnmoreimage1 {
-        left: 15rem;
+        left: 16rem;
     }
-    .createafreeaccount,
-    .depositing,
-    .buyorsellcrypto {
-        padding-bottom: 70px;
-        padding-top: 20px;
-        position: relative;
 
+    .depositsmall,
+    .depositp {
+        left: 10rem;
     }
+    #numbertwo {
+        left: 8rem;
+    }
+    
 
 
 }
 
-@media (min-width: 425px) and (max-width: 688px) {
+@media screen and (min-width: 425px) {
     .reasons {
         font-size: 14px;
     }
@@ -309,13 +312,13 @@
     .freesmall {
         font-size: 10px;
         font-weight: 500;
-        top: 1.2rem;
+        top: 1.8rem;
         width: 60%;
     }
 
     .learnmoreimage3,
     .learnmoreimage1 {
-        left: 18rem;
+        left: 20rem;
         top: 2rem;
     }
 
@@ -337,8 +340,10 @@
 }
 
 
+@media screen and  (min-width: 481px){
 
-@media (min-width: 689px) and (max-width: 767px) {
+}
+@media screen and  (min-width: 600px) {
 
     .reasons {
         font-size: 16px;
@@ -394,7 +399,7 @@
         width: 150px;
     }
 
-    
+
     .createafreeaccount,
     .depositing,
     .buyorsellcrypto {
@@ -477,9 +482,9 @@
 
     .learnmoreimage3,
     .learnmoreimage1 {
-        left: 28rem;
-        top: 2rem;
-        width: 170px;
+        display: flex;
+        justify-content: right;
+
     }
 
     .createafreeaccount,
@@ -493,10 +498,8 @@
     }
 
     .learnmoreimage2 {
-        width: 190px;
-        position: relative;
-        left: 0rem;
-        top: 1rem;
+        display: flex;
+        justify-content: left;
     }
 
     #numbertwo,
@@ -621,7 +624,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1230px) {
+@media screen and (min-width: 1024px) {
 
     .mains {
         margin: 30px 30px;
@@ -691,13 +694,14 @@
         font-size: 12px;
         text-align: center;
     }
-    .learningeveryday{
+
+    .learningeveryday {
         text-align: center;
         position: relative;
         right: 5rem;
-        
-       
-        
+
+
+
     }
 
     .btn-learnmore {
@@ -712,7 +716,7 @@
         position: relative;
         margin-top: 10px;
         justify-content: center;
-        
+
 
     }
 
@@ -727,7 +731,8 @@
         width: 50px;
         top: 0rem;
     }
-    #numbertwo{
+
+    #numbertwo {
         width: 50px;
         top: 0rem;
         left: 21rem;
@@ -755,16 +760,19 @@
         width: 230px;
         left: 45rem;
     }
-    .learnmoreimage2{
+
+    .learnmoreimage2 {
         width: 290px;
         left: 0rem;
         top: -5rem;
     }
-    .depositp{
+
+    .depositp {
         font-size: 24px;
         left: 27rem;
     }
-    .depositsmall{
+
+    .depositsmall {
         font-size: 18.5px;
         left: 27rem;
         top: 3rem;
@@ -779,6 +787,7 @@
 
 
 }
+
 @media screen and (min-width: 1231px) {
 
     .mains {
@@ -847,12 +856,13 @@
         font-size: 12px;
         text-align: center;
     }
-    .learningeveryday{
+
+    .learningeveryday {
         text-align: center;
         position: relative;
         right: 5rem;
-       
-        
+
+
     }
 
     .btn-learnmore {
@@ -867,8 +877,8 @@
         position: relative;
         margin-top: 10px;
         justify-content: center;
-        
-        
+
+
 
     }
 
@@ -883,7 +893,8 @@
         width: 50px;
         top: 0rem;
     }
-    #numbertwo{
+
+    #numbertwo {
         width: 50px;
         top: 0rem;
         left: 21rem;
@@ -911,16 +922,19 @@
         width: 230px;
         left: 54rem;
     }
-    .learnmoreimage2{
+
+    .learnmoreimage2 {
         width: 290px;
         left: 0rem;
         top: -5rem;
     }
-    .depositp{
+
+    .depositp {
         font-size: 24px;
         left: 27rem;
     }
-    .depositsmall{
+
+    .depositsmall {
         font-size: 18.5px;
         left: 27rem;
         top: 3rem;

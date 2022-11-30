@@ -46,7 +46,7 @@
 
 
 
-@media (min-width: 481px) and (max-width: 599px) {
+@media screen and  (min-width: 481px) {
 
     #bayo,
     #ireti {
@@ -67,11 +67,11 @@
 
 }
 
-@media (min-width: 600px) and (max-width: 767px) {
+@media screen and  (min-width: 600px) {
 
     #bayo,
     #ireti {
-        width: 300px;
+        width: 310px;
     }
 
     .customerreview {
@@ -88,56 +88,14 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and  (min-width: 768px){
     .container3 {
         display: none;
     }
-
-    /* #maincard3,
-    #maincard2,
-    #maincard1 {
-        position: relative;
-        margin: 0px 20px;
-        width: 390px;
-    } */
-
-    /* #cardp3,
-    #cardp2,
-    #cardp1 {
-        position: relative;
-        bottom: 13rem;
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        width: 70%;
-        left: 5rem;
-        text-align: center;
-    } */
-
-    /* #quotation3,
-    #quotation2,
-    #quotation1 {
-        position: relative;
-        bottom: 13rem;
-        left: 2rem;
-        z-index: 1;
-        color: black;
-    } */
-
-    /* #photoid3,
-    #photoid2,
-    #photoid1 {
-        position: relative;
-        left: 4.5rem;
-        width: 60px;
-        bottom: 7.5rem;
-        z-index: 1;
-
-    } */
-
+    
     #bayo,
     #ireti {
-        width: 300px;
+        width: 320.9px;
     }
 
     .customerreview {
@@ -150,15 +108,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container3 {
+    .container3{
         display: grid;
-        /* grid-template-rows: repeat(3,1fr); */
-
     }
 
     #bayo,
     #ireti {
-        width: 300.9px;
+        width: 330.9px;
     }
 
     .customerreview {
@@ -174,7 +130,6 @@
 
     #imagingtext {
         align-items: center;
-        /* text-align: center; */
         padding: 60px 0px;
     }
 
@@ -186,83 +141,24 @@
 
     #imagingtext2{
         display: flex;
-        gap: 1rem;  
+        gap: 1.5rem;  
         height: 100%;
         width: 100%;
         margin-bottom: 60px;
         margin-top: 30px;
     }
 
-    /* .custcunt{
-        height: 100%;
-    }
-    .cruise{
-        height: 100%;
-    } */
-
-}
-@media screen and (min-width: 1024px) {
-    .container3 {
-        display: grid;
-        /* grid-template-rows: repeat(3,1fr); */
-
-    }
-
-    #bayo,
-    #ireti {
-        width: 360.9px;
-    }
-
-    .customerreview {
-        font-size: 30px;
-        font-weight: 700;
-        margin-top: 90px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .container2 {
-        display: none;
-    }
-
-    #imagingtext {
-        align-items: center;
-        /* text-align: center; */
-        padding: 60px 0px;
-    }
-
-    .contan3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    #imagingtext2{
-        display: flex;
-        gap: 1rem;  
-        height: 100%;
-        width: 100%;
-        margin-bottom: 60px;
-        margin-top: 30px;
-    }
-
-    /* .custcunt{
-        height: 100%;
-    }
-    .cruise{
-        height: 100%;
-    } */
 
 }
 @media screen and (min-width: 1288px) {
     .container3 {
         display: grid;
-        /* grid-template-rows: repeat(3,1fr); */
 
     }
 
     #bayo,
     #ireti {
-        width: 360.9px;
+        width: 340.9px;
     }
 
     .customerreview {
@@ -278,7 +174,6 @@
 
     #imagingtext {
         align-items: center;
-        /* text-align: center; */
         padding: 60px 0px;
     }
 
@@ -297,24 +192,17 @@
         margin-top: 30px;
     }
 
-    /* .custcunt{
-        height: 100%;
-    }
-    .cruise{
-        height: 100%;
-    } */
+
 
 }
 @media screen and (min-width: 1350px) {
     .container3 {
         display: grid;
-        /* grid-template-rows: repeat(3,1fr); */
-
     }
 
     #bayo,
     #ireti {
-        width: 380.9px;
+        width: 350.9px;
     }
 
     .customerreview {
@@ -348,13 +236,6 @@
         margin-bottom: 60px;
         margin-top: 30px;
     }
-
-    /* .custcunt{
-        height: 100%;
-    }
-    .cruise{
-        height: 100%;
-    } */
 
 }
 @media screen and (min-width: 1400px) {
@@ -366,7 +247,7 @@
 
     #bayo,
     #ireti {
-        width: 400.9px;
+        width: 360.9px;
     }
 
     .customerreview {
@@ -382,7 +263,6 @@
 
     #imagingtext {
         align-items: center;
-        /* text-align: center; */
         padding: 60px 0px;
     }
 
@@ -394,18 +274,11 @@
 
     #imagingtext2{
         display: flex;
-        gap: 2rem;  
+        gap: 2.5rem;  
         height: 100%;
         width: 100%;
         margin-bottom: 60px;
         margin-top: 30px;
     }
-
-    /* .custcunt{
-        height: 100%;
-    }
-    .cruise{
-        height: 100%;
-    } */
 
 }

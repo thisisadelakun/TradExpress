@@ -1,7 +1,9 @@
 import React from 'react'
+import { useState } from 'react'
 import '../Styles/Home.css'
 import Header from './Header'
 import Render from './Render'
+import Render2 from './Render2'
 import EasyMode from '../Assets/rafiki-lady.png'
 import Finacial from '../Assets/cuate.png'
 import Investment from '../Assets/amico.png'
@@ -9,13 +11,13 @@ import Numberone from '../Assets/emojione-monotone_keycap-1.png'
 import Phone from '../Assets/cuate2.png'
 import Numbertwo from '../Assets/emojione-monotone_keycap-2.png'
 import Piggybank from '../Assets/rafiki-piggybank.png'
+import Numberthree from '../Assets/emojione-monotone_keycap-3.png'
 import Coin from '../Assets/cuatemoney.png'
 import Artilces from './Artilces'
-import Numberthree from '../Assets/emojione-monotone_keycap-3.png'
 import CustomerReview from './CustomerReview'
 import Footy from './Footy'
-import { useState } from 'react'
-import Render2 from './Render2'
+
+
 
 const Home = () => {
     const [less, setLess] = useState(false)
@@ -93,7 +95,7 @@ const Home = () => {
                 </div>
 
                 <div id='container1'>
-                    <div className='container'>
+                    <div className='stepscontent'>
                         <div className='createafreeaccount'>
                             <img id='numberone' src={Numberone} alt="" />
                             <p className='freeaccountp'>Create a free Account</p>

@@ -22,48 +22,59 @@
 
 .itsloading1 {
     display: flex;
-    background-image: linear-gradient(to bottom right, rgb(#dacee4), rgb(#ede5f3));
-    border-bottom: 1px solid #887499;
+    justify-content: center;
+    height: 80vh;
+    background-color: #e7dbf1;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+.loading{
+    margin-top: 30px;
 }
 
 .renderold {
     display: none;
 }
 
-#datums {
+#datumss {
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
     font-family: 'Inter', sans-serif;
-
-
-
+    border: 1px solid gray;
+    padding: 10px;
 }
 
-.symbol {
-    font-size: 17px;
+.symbolsss{
     font-weight: 700;
-
+    font-size: 13px;
 }
 
 .price-usd {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 
 
 }
 
 #chng {
-    font-size: 13px;
+    font-size: 11px;
     color: blueviolet;
 }
 
 .hours24 {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .rendering {
     background-color: white;
+}
+.arows {
+    width: 10px;
+    /* position: absolute; */
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
 }
 
 
@@ -83,7 +94,7 @@
         display: none;
     }
 
-    .symbol {
+    .symbol{
         font-size: 13px;
     }
 
