@@ -18,7 +18,8 @@
 }
 
 .reasons {
-    margin: 20px 0px;
+    /* margin: 20rem 0px; */
+    margin-top: 2rem;
     font-size: 13px;
     width: 100%;
     font-weight: bold;
@@ -178,6 +179,7 @@
     width: 50%;
     font-size: 12px;
     padding: 4px;
+    color: #7C20BE;
 }
 
 .less-btn:hover {
@@ -731,7 +733,7 @@
         margin-bottom: 1rem;
     }
     .investment1{
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .firstp1 {
@@ -750,7 +752,7 @@
     .words1 {
         display: flex;
         font-size: 16px;
-        width: 87%;
+        width: 97%;
         margin: auto;
         color: #26093A;
     }
@@ -805,7 +807,7 @@
 
     .freesmall,
     .buyorsellsmall {
-        font-size: 18.5px;
+        font-size: 16px;
         width: 60%;
         left: 5rem;
         top: 3rem;
@@ -842,7 +844,7 @@
     }
 
     .depositsmall {
-        font-size: 18.5px;
+        font-size: 16px;
         left: 27rem;
         top: 3rem;
         width: 50%;
@@ -939,11 +941,11 @@
         align-items: center;
         place-content: center;
         display: inline;
-        width: 20rem;
+        width: 18rem;
         border: 1px solid black;
         color: black;
         font-size: 16px;
-        height: 3.5rem;
+        height: 2.5rem;
         position: relative;
         margin-top: 10px;
         justify-content: center;
@@ -953,9 +955,10 @@
     }
 
     .simplesteps {
-        font-size: 38px;
+        font-size: 35px;
         margin: 80px 0px;
         font-weight: bold;
+        font-family: inherit;
     }
 
 
@@ -973,18 +976,20 @@
 
     .freeaccountp,
     .sellcryptop {
-        font-size: 24px;
+        font-size: 21px;
         left: 5rem;
+        font-family: inherit;
 
 
     }
 
     .freesmall,
     .buyorsellsmall {
-        font-size: 16px;
+        font-size: 14px;
         width: 55%;
         left: 5rem;
         top: 3rem;
+        font-family: inherit;
 
     }
     .learnmoreimage3,
@@ -1017,15 +1022,17 @@
     } */
 
     .depositp {
-        font-size: 24px;
+        font-size: 21px;
         left: 27rem;
+        font-family: inherit;
     }
 
     .depositsmall {
-        font-size: 16px;
+        font-size: 14px;
         left: 27rem;
         top: 3rem;
         width: 60%;
+        font-family: inherit;
     }
 
     .createafreeaccount,

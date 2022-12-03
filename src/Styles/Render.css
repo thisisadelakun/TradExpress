@@ -9,11 +9,9 @@
 .rendering,
 .rendernew {
     background-color: #ede5f3;
+    width: 100%;
+    margin: 0px;
 
-}
-
-.rendernew {
-    margin: 7px;
 }
 
 .itsloading2 {
@@ -22,11 +20,20 @@
 
 .itsloading1 {
     display: flex;
-    justify-content: center;
-    height: 80vh;
-    background-color: #e7dbf1;
+    justify-content: left;
+    background-color: #ece3f5;
     margin: 10px 10px;
     font-size: 15px;
+    height: 100%;
+}
+.subloading11{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+}
+.subloader12{
+    margin: 0.1rem 0rem;
 }
 .loading{
     margin-top: 30px;
@@ -39,10 +46,10 @@
 #datumss {
     display: flex;
     flex-direction: column;
-    margin: 10px 10px;
+    margin: 10px 15px;
     font-family: 'Inter', sans-serif;
     border: 1px solid gray;
-    padding: 10px;
+    padding: 15px;
 }
 
 .symbolsss{
@@ -146,11 +153,13 @@
     }
 
     .itsloading2 {
-        height: 18vh;
+        height: 15vh;
+        background-color: white;
         display: flex;
         justify-content: center;
         font-size: 19px;
-        margin-top: 30px;
+        /* margin-top: 4rem; */
+        border-bottom: 1px solid grey;
     }
 
     .itsloading1 {
