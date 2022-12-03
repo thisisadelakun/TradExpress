@@ -32,15 +32,15 @@ const CustomerReview = () => {
             <div className='contan3'>
                 <div className='container'>
                     <div id='imagingtext2'>
-                        <img id='ireti' src={Ireti} alt="" />
-                        <img id='ireti' src={Olagoke} alt="" />
-                        <img id='bayo' src={Bayo} alt="" />
+                        <img id='ireti1' src={Ireti} alt="" />
+                        <img id='ireti1' src={Olagoke} alt="" />
+                        <img id='bayo1' src={Bayo} alt="" />
                     </div>
                 </div>
             </div>
 
 
-            <div id='imagingreviews'>
+            {/* <div id='imagingreviews'>
 
                 <div className='card1'>
                     <img id='maincard1' src={Cards} alt="" />
@@ -68,7 +68,7 @@ const CustomerReview = () => {
                     </p>
                     <img id='photoid3' src={photo3} alt="" />
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )

@@ -80,102 +80,32 @@
 
 
 @media screen and (min-width: 481px) {
-    .itsloading2 {
-        display: flex;
-        height: 15vh;
-        justify-content: center;
-        font-size: 18px;
-        margin-top: 30px;
-        border-bottom: 1px solid gray;
-
-    }
-
-    .itsloading1 {
-        display: none;
-    }
-
-    .symbol{
-        font-size: 13px;
-    }
-
-    .price-usd {
-        font-size: 12px;
-
-
-    }
-
-    #chng {
-        font-size: 11px;
-    }
-
-    .hours24 {
-        font-size: 11px;
-        position: relative;
-        right: 0.5rem;
-
-    }
-
-    .sub-coin {
-        position: relative;
-        text-align: right;
-        bottom: 0.2rem;
-
-
-    }
-
-    .rendernew {
-        display: none;
-
-    }
-
-    .renderold {
-        display: flex;
-        flex-direction: row;
-        font-family: 'Inter', sans-serif;
-        text-align: left;
-        position: relative;
-        width: 100%;
-
-    }
-
-    .rendering {
-        margin: 0px 10px;
-
-    }
-
-    .coin {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        gap: 1rem;
-
-    }
-
-    .dating {
-        border-right: 1px solid rgb(201, 189, 189);
-        margin: 10px 0px;
-    }
-}
-
-@media screen and (min-width: 768px) {
     .symbol {
-        font-size: 23px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: inherit;
     }
 
 
     .price-usd {
-        font-size: 18px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: inherit;
 
 
     }
 
     #chng {
-        font-size: 17px;
+        font-size: 11px;
+        font-weight: 700;
+        font-family: inherit;
     }
 
     .hours24 {
-        font-size: 17px;
+        font-size: 11px;
         position: relative;
+        font-weight: 700;
+        font-family: inherit;
         right: 0.5rem;
 
     }
@@ -202,19 +132,17 @@
         width: 100%;
     }
 
-    .rendering {
-        margin: 0px 10px;
-    }
 
     .coin {
         display: flex;
         flex-direction: row;
         position: relative;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .dating {
         border-right: 1px solid rgb(201, 189, 189);
+        padding: 0.5rem;
     }
 
     .itsloading2 {
@@ -228,11 +156,104 @@
     .itsloading1 {
         display: none;
     }
+    .arrows1{
+        width: 8px;
+        margin-bottom: 5px;
+        margin-left: 5px
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .symbol {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: inherit;
+    }
+
+
+    .price-usd {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: inherit;
+
+
+    }
+
+    #chng {
+        font-size: 17px;
+        font-weight: 700;
+        font-family: inherit;
+    }
+
+    .hours24 {
+        font-size: 17px;
+        position: relative;
+        font-weight: 700;
+        font-family: inherit;
+        right: 0.5rem;
+
+    }
+
+    .sub-coin {
+        position: relative;
+        text-align: right;
+        bottom: 0.2rem;
+    }
+
+    .rendernew {
+        display: none;
+
+    }
+
+    .renderold {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        gap: 1rem;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+    }
+
+
+    .coin {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap: 3rem;
+    }
+
+    .dating {
+        border-right: 1px solid rgb(201, 189, 189);
+        padding: 0.5rem 0rem;
+    }
+
+    .itsloading2 {
+        height: 15vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        /* margin-top: 4rem; */
+        border-bottom: 1px solid grey;
+    }
+
+    .itsloading1 {
+        display: none;
+    }
+    .arrows1{
+        width: 10px;
+        margin-bottom: 5px;
+        margin-left: 5px
+
+    }
 
 
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .symbol {
         font-size: 16px;
     }
@@ -371,4 +392,4 @@
         display: none;
     }
 
-}
+} */

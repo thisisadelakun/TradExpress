@@ -24,6 +24,7 @@ const Render2 = () => {
         return (
             <div className='itsloading2'>
                 <p className='loading animate__animated animate__pulse animate__slower	3s animate__infinite	infinite' >Loading, please wait...</p>
+                
             </div>
         )
     }
@@ -43,7 +44,7 @@ const Render2 = () => {
                                             <button className='btn btn-percent' id='chng'> 24h chg% </button > <br />
                                             <span className='hours24'>
                                                 {percent_change_24h}%
-                                                <img src={percent_change_24h > 0 ? ArrowUp : ArrowDown} alt="" width={12} />
+                                                <img className='arrows1' src={percent_change_24h > 0 ? ArrowUp : ArrowDown} alt=""/>
                                             </span>
                                         </div>
                                     </div>

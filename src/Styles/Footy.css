@@ -27,6 +27,7 @@
     font-weight: 700;
     text-decoration: none;
     color: black;
+    
 }
 
 .socialmedia {
@@ -114,7 +115,7 @@
     #contact p,
     #learn p,
     #products p {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 700;
         font-family: 'Roboto', sans-serif;
         border: none;
@@ -127,7 +128,7 @@
     #contact a,
     #learn a,
     #products a {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 400;
         text-decoration: none;
     }
@@ -148,7 +149,7 @@
         
     }
     #reserved {
-        font-size: 13px;
+        font-size: 16px;
         position: relative;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -156,5 +157,16 @@
 
     }
     
+
+}
+@media screen and  (min-width: 1024px) {
+    #reserved {
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+
+    }
 
 }

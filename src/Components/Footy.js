@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Footy.css'
 import { FaTwitter } from 'react-icons/fa'
 import { FaTelegram } from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa'
+import { RiWhatsappFill } from 'react-icons/ri'
 import { FaFacebook } from 'react-icons/fa'
 import { BiArrowToTop } from 'react-icons/bi'
 
@@ -35,7 +35,7 @@ const Footy = () => {
                     <div className='socialmedia'>
                         <a href="#top"><FaTwitter /></a>
                         <a href="#top"><FaTelegram /></a>
-                        <a href="#top"><FaWhatsapp /></a>
+                        <a href="#top"><RiWhatsappFill /></a>
                         <a href="#top"><FaFacebook /></a>
                     </div>
                 </div> <br />
@@ -58,7 +58,7 @@ const Footy = () => {
                 </div> <br />
             </div>
             <div className='gotop'>
-                <div className='container'>
+                <div className='curtainclose'>
                     <a className='gotopping' href="#top"><BiArrowToTop /></a>
                 </div>
             </div>
