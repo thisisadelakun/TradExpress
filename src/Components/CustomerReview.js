@@ -4,11 +4,6 @@ import Ireti from '../Assets/ireti.png'
 import Olagoke from '../Assets/olagoke text and profile.png'
 import Bayo from '../Assets/bayo.png'
 import Marquee from "react-fast-marquee";
-import photo1 from '../Assets/Ellipse 3 ireti.png'
-import photo2 from '../Assets/Ellipse 3 bayo.png'
-import photo3 from '../Assets/Ellipse 3 Olagoke.png'
-import Cards from '../Assets/Union Bayo.png'
-import Quote from '../Assets/quote-line.png'
 
 
 const CustomerReview = () => {
