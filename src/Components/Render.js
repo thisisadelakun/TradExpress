@@ -18,7 +18,7 @@ const Render = (props) => {
             fetch('https://api.coinlore.net/api/tickers/?start=0&limit=5')
                 .then((res) => res.json())
                 .then((rep) => setData(rep.data), setIsLoading(false))
-        }, 5000)
+        }, 3000)
 
     })
     if (isLoading) {
@@ -31,8 +31,8 @@ const Render = (props) => {
                             width={500}
                             height={160}
                             viewBox="50 0 400 130"
-                            backgroundColor="#d9d9d9"
-                            foregroundColor="#ededed"
+                            backgroundColor="#ededed"
+                            foregroundColor="#f2f2f2"
                             {...props}
                         >
                             <rect x="50" y="6" rx="4" ry="4" width="343" height="50" />
@@ -46,8 +46,8 @@ const Render = (props) => {
                             width={500}
                             height={160}
                             viewBox="50 0 400 130"
-                            backgroundColor="#d9d9d9"
-                            foregroundColor="#ededed"
+                            backgroundColor="#ededed"
+                            foregroundColor="#f2f2f2"
                             {...props}
                         >
                             <rect x="50" y="6" rx="4" ry="4" width="343" height="50" />
@@ -61,8 +61,8 @@ const Render = (props) => {
                             width={500}
                             height={160}
                             viewBox="50 0 400 130"
-                            backgroundColor="#d9d9d9"
-                            foregroundColor="#ededed"
+                            backgroundColor="#ededed"
+                            foregroundColor="#f2f2f2"
                             {...props}
                         >
                             <rect x="50" y="6" rx="4" ry="4" width="343" height="50" />
@@ -76,8 +76,8 @@ const Render = (props) => {
                             width={500}
                             height={160}
                             viewBox="50 0 400 130"
-                            backgroundColor="#d9d9d9"
-                            foregroundColor="#ededed"
+                            backgroundColor="#ededed"
+                            foregroundColor="#f2f2f2"
                             {...props}
                         >
                             <rect x="50" y="6" rx="4" ry="4" width="343" height="50" />
@@ -91,8 +91,8 @@ const Render = (props) => {
                             width={500}
                             height={160}
                             viewBox="50 0 400 130"
-                            backgroundColor="#d9d9d9"
-                            foregroundColor="#ededed"
+                            backgroundColor="#ededed"
+                            foregroundColor="#f2f2f2"
                             {...props}
                         >
                             <rect x="50" y="6" rx="4" ry="4" width="343" height="50" />

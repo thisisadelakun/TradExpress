@@ -8,7 +8,7 @@
 
 .rendering,
 .rendernew {
-    background-color: #ede5f3;
+    background-color: white;
     width: 100%;
     margin: 0px;
 
@@ -21,7 +21,7 @@
 .itsloading1 {
     display: flex;
     justify-content: left;
-    background-color: #ece3f5;
+    background-color: white;
     margin: 10px 10px;
     font-size: 15px;
     height: 100%;
@@ -33,7 +33,7 @@
     justify-content: left;
 }
 .subloader12{
-    margin: 0.1rem 0rem;
+    margin: 5px 15px;
 }
 .loading{
     margin-top: 30px;
@@ -48,8 +48,9 @@
     flex-direction: column;
     margin: 10px 15px;
     font-family: 'Inter', sans-serif;
-    border: 1px solid gray;
+    border: 1px solid rgb(194, 194, 194);
     padding: 15px;
+    background-color: #ededed;
 }
 
 .symbolsss{
@@ -101,6 +102,19 @@
 
 
     }
+    .subloading13{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: -10px -10px;
+        margin-top: 10px;
+        
+    }
+    .subloader14{
+        margin: -15px -15px;
+       
+
+    }
 
     #chng {
         font-size: 11px;
@@ -150,16 +164,14 @@
     .dating {
         border-right: 1px solid rgb(201, 189, 189);
         padding: 0.5rem;
+        margin: 0.5rem;
     }
 
     .itsloading2 {
-        height: 15vh;
         background-color: white;
         display: flex;
         justify-content: center;
-        font-size: 19px;
-        /* margin-top: 4rem; */
-        border-bottom: 1px solid grey;
+        height: 100%;
     }
 
     .itsloading1 {
@@ -175,14 +187,14 @@
 
 @media screen and (min-width: 768px) {
     .symbol {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
         font-family: inherit;
     }
 
 
     .price-usd {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
         font-family: inherit;
 
@@ -190,13 +202,13 @@
     }
 
     #chng {
-        font-size: 17px;
+        font-size: 14px;
         font-weight: 700;
         font-family: inherit;
     }
 
     .hours24 {
-        font-size: 17px;
+        font-size: 14px;
         position: relative;
         font-weight: 700;
         font-family: inherit;
@@ -240,13 +252,10 @@
     }
 
     .itsloading2 {
-        height: 15vh;
         background-color: white;
         display: flex;
         justify-content: center;
-        font-size: 19px;
-        /* margin-top: 4rem; */
-        border-bottom: 1px solid grey;
+        height:100%
     }
 
     .itsloading1 {

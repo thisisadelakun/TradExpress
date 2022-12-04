@@ -33,38 +33,6 @@ const CustomerReview = () => {
                     </div>
                 </div>
             </div>
-
-
-            {/* <div id='imagingreviews'>
-
-                <div className='card1'>
-                    <img id='maincard1' src={Cards} alt="" />
-                    <img id='quotation1' src={Quote} alt="" />
-                    <p id='cardp1'>
-                        Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate.
-                    </p>
-                    <img id='photoid1' src={photo1} alt="" />
-                </div>
-
-                <div className='card2'>
-                    <img id='maincard2' src={Cards} alt="" />
-                    <img id='quotation2' src={Quote} alt="" />
-                    <p id='cardp2'>
-                        Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate.
-                    </p>
-                    <img id='photoid2' src={photo2} alt="" />
-                </div>
-
-                <div className='card3'>
-                    <img id='maincard3' src={Cards} alt="" />
-                    <img id='quotation3' src={Quote} alt="" />
-                    <p id='cardp3'>
-                        Trading on TradExpress mobile & web platforms has been a smooth experience for me quite easy to navigate.
-                    </p>
-                    <img id='photoid3' src={photo3} alt="" />
-                </div>
-            </div> */}
-
         </div>
     )
 }
