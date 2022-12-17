@@ -64,7 +64,7 @@ const Footy = () => {
             </div>
             <div id='copyright'>
                 <div className='copyingright'>
-                    <p id='reserved'>© 2021 TradeExpress Technologies All Rights Reserved.</p>
+                    <p id='reserved'>© 2021 TradExpress Technologies All Rights Reserved.</p>
                 </div>
             </div>
 

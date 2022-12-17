@@ -18,7 +18,6 @@
 }
 
 .reasons {
-    /* margin: 20rem 0px; */
     margin-top: 2rem;
     font-size: 13px;
     width: 100%;
@@ -270,77 +269,6 @@
 
 
 }
-
-/* @media screen and (min-width: 425) {
-    .reasons {
-        font-size: 14px;
-    }
-
-    .firstp {
-        font-size: 14px;
-
-    }
-
-    .words {
-        font-size: 12px;
-        width: 80%;
-        position: relative;
-        left: 2rem;
-    }
-
-    .easymode,
-    .investment,
-    .finacial {
-        width: 120px;
-        margin-top: 10px;
-    }
-
-    .simplesteps {
-        font-size: 14px;
-        margin: 50px 0px;
-
-    }
-
-    .depositp,
-    .sellcryptop,
-    .freeaccountp {
-        font-size: 13px;
-        top: 0px;
-
-    }
-
-    .buyorsellsmall,
-    .depositsmall,
-    .freesmall {
-        font-size: 10px;
-        font-weight: 500;
-        top: 1.8rem;
-        width: 60%;
-    }
-
-    .learnmoreimage3,
-    .learnmoreimage1 {
-        left: 23rem;
-        top: 2rem;
-    }
-
-    .createafreeaccount,
-    .depositing,
-    .buyorsellcrypto {
-        padding-bottom: 80px;
-        padding-top: 20px;
-        position: relative;
-        height: 100%;
-    }
-
-    .learnmoreimage2 {
-        width: 150px;
-        position: relative;
-        left: 0rem;
-        top: 1rem;
-    }
-} */
-
 
 @media screen and  (min-width: 481px){
      
